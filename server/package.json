@@ -1,0 +1,15 @@
+{
+  "name": "cr-locations-graphql-server",
+  "version": "1.0.0",
+  "description": "GraphQL API for Costa Rica's provincias, cantones, and distritos",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.11.0",
+    "graphql": "^16.9.0"
+  }
+}
