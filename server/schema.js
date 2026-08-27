@@ -1,29 +1,7 @@
-export const typeDefs = `#graphql
-  type Provincia {
-    id: ID!
-    nombre: String!
-    cantones: [Canton!]!
-  }
+import { readFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+import path from "node:path";
 
-  type Canton {
-    id: ID!
-    nombre: String!
-    provincia: Provincia!
-    distritos: [Distrito!]!
-  }
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-  type Distrito {
-    id: ID!
-    nombre: String!
-    canton: Canton!
-  }
-
-  type Query {
-    provincias: [Provincia!]!
-    provincia(id: ID!): Provincia
-    cantones(provinciaId: ID): [Canton!]!
-    canton(id: ID!): Canton
-    distritos(cantonId: ID): [Distrito!]!
-    buscarDistrito(nombre: String!): [Distrito!]!
-  }
-`;
+export const typeDefs = readFileSync(path.join(__dirname, "schema.graphql"), "utf-8");

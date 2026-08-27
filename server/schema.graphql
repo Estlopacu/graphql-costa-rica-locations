@@ -1,0 +1,27 @@
+type Provincia {
+  id: ID!
+  nombre: String!
+  cantones: [Canton!]!
+}
+
+type Canton {
+  id: ID!
+  nombre: String!
+  provincia: Provincia!
+  distritos: [Distrito!]!
+}
+
+type Distrito {
+  id: ID!
+  nombre: String!
+  canton: Canton!
+}
+
+type Query {
+  provincias: [Provincia!]!
+  provincia(id: ID!): Provincia
+  cantones(provinciaId: ID): [Canton!]!
+  canton(id: ID!): Canton
+  distritos(cantonId: ID): [Distrito!]!
+  buscarDistrito(nombre: String!): [Distrito!]!
+}
