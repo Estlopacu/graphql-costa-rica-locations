@@ -2,6 +2,7 @@ type Provincia {
   id: ID!
   nombre: String!
   cantones: [Canton!]!
+  codigoPostal: String!
 }
 
 type Canton {
@@ -9,12 +10,14 @@ type Canton {
   nombre: String!
   provincia: Provincia!
   distritos: [Distrito!]!
+  codigoPostal: String!
 }
 
 type Distrito {
   id: ID!
   nombre: String!
   canton: Canton!
+  codigoPostal: String!
 }
 
 type Query {

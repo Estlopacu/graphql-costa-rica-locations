@@ -34,9 +34,30 @@ def main() -> None:
             distritos = []
             for d_index, d_nombre in enumerate(distritos_raw, start=1):
                 distrito_id = f"{canton_id}-d{d_index}"
-                distritos.append({"id": distrito_id, "nombre": d_nombre})
-            cantones.append({"id": canton_id, "nombre": c_nombre, "distritos": distritos})
-        provincias.append({"id": provincia_id, "nombre": p_nombre, "cantones": cantones})
+                # Costa Rica postal code format: P CCC DD -> 5 digits
+                # We'll generate codes as: province (1 digit) + canton (2 digits) + district (2 digits)
+                postal_code = f"{p_index}{c_index:02d}{d_index:02d}"
+                distritos.append({
+                    "id": distrito_id,
+                    "nombre": d_nombre,
+                    "codigoPostal": postal_code,
+                })
+            # Canton postal code: province(1) + canton(2) + '00'
+            canton_postal = f"{p_index}{c_index:02d}00"
+            cantones.append({
+                "id": canton_id,
+                "nombre": c_nombre,
+                "codigoPostal": canton_postal,
+                "distritos": distritos,
+            })
+        # Provincia postal code: province(1) + '0000'
+        provincia_postal = f"{p_index}0000"
+        provincias.append({
+            "id": provincia_id,
+            "nombre": p_nombre,
+            "codigoPostal": provincia_postal,
+            "cantones": cantones,
+        })
 
     OUT_PATH.write_text(
         json.dumps({"provincias": provincias}, ensure_ascii=False, indent=2),

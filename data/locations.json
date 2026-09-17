@@ -10,47 +10,58 @@
           "distritos": [
             {
               "id": "p1-c1-d1",
-              "nombre": "San José"
+              "nombre": "San José",
+              "codigoPostal": "10101"
             },
             {
               "id": "p1-c1-d2",
-              "nombre": "Merced"
+              "nombre": "Merced",
+              "codigoPostal": "10102"
             },
             {
               "id": "p1-c1-d3",
-              "nombre": "Hospital"
+              "nombre": "Hospital",
+              "codigoPostal": "10103"
             },
             {
               "id": "p1-c1-d4",
-              "nombre": "Catedral"
+              "nombre": "Catedral",
+              "codigoPostal": "10104"
             },
             {
               "id": "p1-c1-d5",
-              "nombre": "Zapote"
+              "nombre": "Zapote",
+              "codigoPostal": "10105"
             },
             {
               "id": "p1-c1-d6",
-              "nombre": "San Francisco de Dos Ríos"
+              "nombre": "San Francisco de Dos Ríos",
+              "codigoPostal": "10106"
             },
             {
               "id": "p1-c1-d7",
-              "nombre": "Uruca"
+              "nombre": "Uruca",
+              "codigoPostal": "10107"
             },
             {
               "id": "p1-c1-d8",
-              "nombre": "Mata Redonda"
+              "nombre": "Mata Redonda",
+              "codigoPostal": "10108"
             },
             {
               "id": "p1-c1-d9",
-              "nombre": "Pavas"
+              "nombre": "Pavas",
+              "codigoPostal": "10109"
             },
             {
               "id": "p1-c1-d10",
-              "nombre": "Hatillo"
+              "nombre": "Hatillo",
+              "codigoPostal": "10110"
             },
             {
               "id": "p1-c1-d11",
-              "nombre": "San Sebastian"
+              "nombre": "San Sebastian",
+              "codigoPostal": "10111"
             }
           ]
         },
@@ -60,15 +71,18 @@
           "distritos": [
             {
               "id": "p1-c2-d1",
-              "nombre": "Escazú"
+              "nombre": "Escazú",
+              "codigoPostal": "10201"
             },
             {
               "id": "p1-c2-d2",
-              "nombre": "San Antonio"
+              "nombre": "San Antonio",
+              "codigoPostal": "10202"
             },
             {
               "id": "p1-c2-d3",
-              "nombre": "San Rafael"
+              "nombre": "San Rafael",
+              "codigoPostal": "10203"
             }
           ]
         },
@@ -78,55 +92,68 @@
           "distritos": [
             {
               "id": "p1-c3-d1",
-              "nombre": "Desamparados"
+              "nombre": "Desamparados",
+              "codigoPostal": "10301"
             },
             {
               "id": "p1-c3-d2",
-              "nombre": "San Miguel"
+              "nombre": "San Miguel",
+              "codigoPostal": "10302"
             },
             {
               "id": "p1-c3-d3",
-              "nombre": "San Juan de Dios"
+              "nombre": "San Juan de Dios",
+              "codigoPostal": "10303"
             },
             {
               "id": "p1-c3-d4",
-              "nombre": "San Rafael Arriba"
+              "nombre": "San Rafael Arriba",
+              "codigoPostal": "10304"
             },
             {
               "id": "p1-c3-d5",
-              "nombre": "San Antonio"
+              "nombre": "San Antonio",
+              "codigoPostal": "10305"
             },
             {
               "id": "p1-c3-d6",
-              "nombre": "Frailes"
+              "nombre": "Frailes",
+              "codigoPostal": "10306"
             },
             {
               "id": "p1-c3-d7",
-              "nombre": "Patarrá"
+              "nombre": "Patarrá",
+              "codigoPostal": "10307"
             },
             {
               "id": "p1-c3-d8",
-              "nombre": "San Cristóbal"
+              "nombre": "San Cristóbal",
+              "codigoPostal": "10308"
             },
             {
               "id": "p1-c3-d9",
-              "nombre": "Rosario"
+              "nombre": "Rosario",
+              "codigoPostal": "10309"
             },
             {
               "id": "p1-c3-d10",
-              "nombre": "Damas"
+              "nombre": "Damas",
+              "codigoPostal": "10310"
             },
             {
               "id": "p1-c3-d11",
-              "nombre": "San Rafael Abajo"
+              "nombre": "San Rafael Abajo",
+              "codigoPostal": "10311"
             },
             {
               "id": "p1-c3-d12",
-              "nombre": "Gravilias"
+              "nombre": "Gravilias",
+              "codigoPostal": "10312"
             },
             {
               "id": "p1-c3-d13",
-              "nombre": "Los Guido"
+              "nombre": "Los Guido",
+              "codigoPostal": "10313"
             }
           ]
         },
@@ -136,39 +163,48 @@
           "distritos": [
             {
               "id": "p1-c4-d1",
-              "nombre": "Santiago"
+              "nombre": "Santiago",
+              "codigoPostal": "10401"
             },
             {
               "id": "p1-c4-d2",
-              "nombre": "Mercedes Sur"
+              "nombre": "Mercedes Sur",
+              "codigoPostal": "10402"
             },
             {
               "id": "p1-c4-d3",
-              "nombre": "Barbacoas"
+              "nombre": "Barbacoas",
+              "codigoPostal": "10403"
             },
             {
               "id": "p1-c4-d4",
-              "nombre": "Grifo Alto"
+              "nombre": "Grifo Alto",
+              "codigoPostal": "10404"
             },
             {
               "id": "p1-c4-d5",
-              "nombre": "San Rafael"
+              "nombre": "San Rafael",
+              "codigoPostal": "10405"
             },
             {
               "id": "p1-c4-d6",
-              "nombre": "Candelarita"
+              "nombre": "Candelarita",
+              "codigoPostal": "10406"
             },
             {
               "id": "p1-c4-d7",
-              "nombre": "Desamparaditos"
+              "nombre": "Desamparaditos",
+              "codigoPostal": "10407"
             },
             {
               "id": "p1-c4-d8",
-              "nombre": "San Antonio"
+              "nombre": "San Antonio",
+              "codigoPostal": "10408"
             },
             {
               "id": "p1-c4-d9",
-              "nombre": "Chires"
+              "nombre": "Chires",
+              "codigoPostal": "10409"
             }
           ]
         },
@@ -178,15 +214,18 @@
           "distritos": [
             {
               "id": "p1-c5-d1",
-              "nombre": "San Marcos"
+              "nombre": "San Marcos",
+              "codigoPostal": "10501"
             },
             {
               "id": "p1-c5-d2",
-              "nombre": "San Lorenzo"
+              "nombre": "San Lorenzo",
+              "codigoPostal": "10502"
             },
             {
               "id": "p1-c5-d3",
-              "nombre": "San Carlos"
+              "nombre": "San Carlos",
+              "codigoPostal": "10503"
             }
           ]
         },
@@ -196,31 +235,38 @@
           "distritos": [
             {
               "id": "p1-c6-d1",
-              "nombre": "Aserrí"
+              "nombre": "Aserrí",
+              "codigoPostal": "10601"
             },
             {
               "id": "p1-c6-d2",
-              "nombre": "Tarbaca"
+              "nombre": "Tarbaca",
+              "codigoPostal": "10602"
             },
             {
               "id": "p1-c6-d3",
-              "nombre": "Vuelta de Jorco"
+              "nombre": "Vuelta de Jorco",
+              "codigoPostal": "10603"
             },
             {
               "id": "p1-c6-d4",
-              "nombre": "San Gabriel"
+              "nombre": "San Gabriel",
+              "codigoPostal": "10604"
             },
             {
               "id": "p1-c6-d5",
-              "nombre": "Legua"
+              "nombre": "Legua",
+              "codigoPostal": "10605"
             },
             {
               "id": "p1-c6-d6",
-              "nombre": "Monterrey"
+              "nombre": "Monterrey",
+              "codigoPostal": "10606"
             },
             {
               "id": "p1-c6-d7",
-              "nombre": "Salitrillos"
+              "nombre": "Salitrillos",
+              "codigoPostal": "10607"
             }
           ]
         },
@@ -230,23 +276,28 @@
           "distritos": [
             {
               "id": "p1-c7-d1",
-              "nombre": "Colon"
+              "nombre": "Colon",
+              "codigoPostal": "10701"
             },
             {
               "id": "p1-c7-d2",
-              "nombre": "Guayabo"
+              "nombre": "Guayabo",
+              "codigoPostal": "10702"
             },
             {
               "id": "p1-c7-d3",
-              "nombre": "Tabarcia"
+              "nombre": "Tabarcia",
+              "codigoPostal": "10703"
             },
             {
               "id": "p1-c7-d4",
-              "nombre": "Piedras Negras"
+              "nombre": "Piedras Negras",
+              "codigoPostal": "10704"
             },
             {
               "id": "p1-c7-d5",
-              "nombre": "Picagres"
+              "nombre": "Picagres",
+              "codigoPostal": "10705"
             }
           ]
         },
@@ -256,31 +307,38 @@
           "distritos": [
             {
               "id": "p1-c8-d1",
-              "nombre": "Guadalupe"
+              "nombre": "Guadalupe",
+              "codigoPostal": "10801"
             },
             {
               "id": "p1-c8-d2",
-              "nombre": "San Francisco"
+              "nombre": "San Francisco",
+              "codigoPostal": "10802"
             },
             {
               "id": "p1-c8-d3",
-              "nombre": "Calle Blancos"
+              "nombre": "Calle Blancos",
+              "codigoPostal": "10803"
             },
             {
               "id": "p1-c8-d4",
-              "nombre": "Mata de Platano"
+              "nombre": "Mata de Platano",
+              "codigoPostal": "10804"
             },
             {
               "id": "p1-c8-d5",
-              "nombre": "Ipis"
+              "nombre": "Ipis",
+              "codigoPostal": "10805"
             },
             {
               "id": "p1-c8-d6",
-              "nombre": "Rancho Redondo"
+              "nombre": "Rancho Redondo",
+              "codigoPostal": "10806"
             },
             {
               "id": "p1-c8-d7",
-              "nombre": "Purral"
+              "nombre": "Purral",
+              "codigoPostal": "10807"
             }
           ]
         },
@@ -290,27 +348,33 @@
           "distritos": [
             {
               "id": "p1-c9-d1",
-              "nombre": "Santa Ana"
+              "nombre": "Santa Ana",
+              "codigoPostal": "10901"
             },
             {
               "id": "p1-c9-d2",
-              "nombre": "Salitral"
+              "nombre": "Salitral",
+              "codigoPostal": "10902"
             },
             {
               "id": "p1-c9-d3",
-              "nombre": "Pozos"
+              "nombre": "Pozos",
+              "codigoPostal": "10903"
             },
             {
               "id": "p1-c9-d4",
-              "nombre": "Uruca"
+              "nombre": "Uruca",
+              "codigoPostal": "10904"
             },
             {
               "id": "p1-c9-d5",
-              "nombre": "Piedades"
+              "nombre": "Piedades",
+              "codigoPostal": "10905"
             },
             {
               "id": "p1-c9-d6",
-              "nombre": "Brasil"
+              "nombre": "Brasil",
+              "codigoPostal": "10906"
             }
           ]
         },
@@ -320,23 +384,28 @@
           "distritos": [
             {
               "id": "p1-c10-d1",
-              "nombre": "Alajuelita"
+              "nombre": "Alajuelita",
+              "codigoPostal": "11001"
             },
             {
               "id": "p1-c10-d2",
-              "nombre": "San Josécito"
+              "nombre": "San Josécito",
+              "codigoPostal": "11002"
             },
             {
               "id": "p1-c10-d3",
-              "nombre": "San Antonio"
+              "nombre": "San Antonio",
+              "codigoPostal": "11003"
             },
             {
               "id": "p1-c10-d4",
-              "nombre": "Concepcion"
+              "nombre": "Concepcion",
+              "codigoPostal": "11004"
             },
             {
               "id": "p1-c10-d5",
-              "nombre": "San Felipe"
+              "nombre": "San Felipe",
+              "codigoPostal": "11005"
             }
           ]
         },
@@ -346,23 +415,28 @@
           "distritos": [
             {
               "id": "p1-c11-d1",
-              "nombre": "San Isidro"
+              "nombre": "San Isidro",
+              "codigoPostal": "11101"
             },
             {
               "id": "p1-c11-d2",
-              "nombre": "San Rafael"
+              "nombre": "San Rafael",
+              "codigoPostal": "11102"
             },
             {
               "id": "p1-c11-d3",
-              "nombre": "Dulce Nombre de Jesus"
+              "nombre": "Dulce Nombre de Jesus",
+              "codigoPostal": "11103"
             },
             {
               "id": "p1-c11-d4",
-              "nombre": "Patalillo"
+              "nombre": "Patalillo",
+              "codigoPostal": "11104"
             },
             {
               "id": "p1-c11-d5",
-              "nombre": "Cascajal"
+              "nombre": "Cascajal",
+              "codigoPostal": "11105"
             }
           ]
         },
@@ -372,23 +446,28 @@
           "distritos": [
             {
               "id": "p1-c12-d1",
-              "nombre": "San Ignacio"
+              "nombre": "San Ignacio",
+              "codigoPostal": "11201"
             },
             {
               "id": "p1-c12-d2",
-              "nombre": "Guaitil"
+              "nombre": "Guaitil",
+              "codigoPostal": "11202"
             },
             {
               "id": "p1-c12-d3",
-              "nombre": "Palmichal"
+              "nombre": "Palmichal",
+              "codigoPostal": "11203"
             },
             {
               "id": "p1-c12-d4",
-              "nombre": "Cangrejal"
+              "nombre": "Cangrejal",
+              "codigoPostal": "11204"
             },
             {
               "id": "p1-c12-d5",
-              "nombre": "Sabanillas"
+              "nombre": "Sabanillas",
+              "codigoPostal": "11205"
             }
           ]
         },
@@ -398,23 +477,28 @@
           "distritos": [
             {
               "id": "p1-c13-d1",
-              "nombre": "San Juan"
+              "nombre": "San Juan",
+              "codigoPostal": "11301"
             },
             {
               "id": "p1-c13-d2",
-              "nombre": "Cinco Esquinas"
+              "nombre": "Cinco Esquinas",
+              "codigoPostal": "11302"
             },
             {
               "id": "p1-c13-d3",
-              "nombre": "Anselmo Llorente"
+              "nombre": "Anselmo Llorente",
+              "codigoPostal": "11303"
             },
             {
               "id": "p1-c13-d4",
-              "nombre": "Leon XIII"
+              "nombre": "Leon XIII",
+              "codigoPostal": "11304"
             },
             {
               "id": "p1-c13-d5",
-              "nombre": "Colima"
+              "nombre": "Colima",
+              "codigoPostal": "11305"
             }
           ]
         },
@@ -424,15 +508,18 @@
           "distritos": [
             {
               "id": "p1-c14-d1",
-              "nombre": "San Vicente"
+              "nombre": "San Vicente",
+              "codigoPostal": "11401"
             },
             {
               "id": "p1-c14-d2",
-              "nombre": "La Trinidad"
+              "nombre": "La Trinidad",
+              "codigoPostal": "11402"
             },
             {
               "id": "p1-c14-d3",
-              "nombre": "San Jeronimo"
+              "nombre": "San Jeronimo",
+              "codigoPostal": "11403"
             }
           ]
         },
@@ -442,19 +529,23 @@
           "distritos": [
             {
               "id": "p1-c15-d1",
-              "nombre": "San Pedro"
+              "nombre": "San Pedro",
+              "codigoPostal": "11501"
             },
             {
               "id": "p1-c15-d2",
-              "nombre": "Sabanilla"
+              "nombre": "Sabanilla",
+              "codigoPostal": "11502"
             },
             {
               "id": "p1-c15-d3",
-              "nombre": "Mercedes"
+              "nombre": "Mercedes",
+              "codigoPostal": "11503"
             },
             {
               "id": "p1-c15-d4",
-              "nombre": "San Rafael"
+              "nombre": "San Rafael",
+              "codigoPostal": "11504"
             }
           ]
         },
@@ -464,23 +555,28 @@
           "distritos": [
             {
               "id": "p1-c16-d1",
-              "nombre": "San Pablo"
+              "nombre": "San Pablo",
+              "codigoPostal": "11601"
             },
             {
               "id": "p1-c16-d2",
-              "nombre": "San Pedro"
+              "nombre": "San Pedro",
+              "codigoPostal": "11602"
             },
             {
               "id": "p1-c16-d3",
-              "nombre": "San Luis"
+              "nombre": "San Luis",
+              "codigoPostal": "11603"
             },
             {
               "id": "p1-c16-d4",
-              "nombre": "San Juan de Mata"
+              "nombre": "San Juan de Mata",
+              "codigoPostal": "11604"
             },
             {
               "id": "p1-c16-d5",
-              "nombre": "Carara"
+              "nombre": "Carara",
+              "codigoPostal": "11605"
             }
           ]
         },
@@ -490,15 +586,18 @@
           "distritos": [
             {
               "id": "p1-c17-d1",
-              "nombre": "Santa Maria"
+              "nombre": "Santa Maria",
+              "codigoPostal": "11701"
             },
             {
               "id": "p1-c17-d2",
-              "nombre": "Jardin"
+              "nombre": "Jardin",
+              "codigoPostal": "11702"
             },
             {
               "id": "p1-c17-d3",
-              "nombre": "Copey"
+              "nombre": "Copey",
+              "codigoPostal": "11703"
             }
           ]
         },
@@ -508,19 +607,23 @@
           "distritos": [
             {
               "id": "p1-c18-d1",
-              "nombre": "Curridabat"
+              "nombre": "Curridabat",
+              "codigoPostal": "11801"
             },
             {
               "id": "p1-c18-d2",
-              "nombre": "Granadilla"
+              "nombre": "Granadilla",
+              "codigoPostal": "11802"
             },
             {
               "id": "p1-c18-d3",
-              "nombre": "Sanchez"
+              "nombre": "Sanchez",
+              "codigoPostal": "11803"
             },
             {
               "id": "p1-c18-d4",
-              "nombre": "Tirrases"
+              "nombre": "Tirrases",
+              "codigoPostal": "11804"
             }
           ]
         },
@@ -530,47 +633,58 @@
           "distritos": [
             {
               "id": "p1-c19-d1",
-              "nombre": "San Isidro de El General"
+              "nombre": "San Isidro de El General",
+              "codigoPostal": "11901"
             },
             {
               "id": "p1-c19-d2",
-              "nombre": "General Viejo"
+              "nombre": "General Viejo",
+              "codigoPostal": "11902"
             },
             {
               "id": "p1-c19-d3",
-              "nombre": "Daniel Flores"
+              "nombre": "Daniel Flores",
+              "codigoPostal": "11903"
             },
             {
               "id": "p1-c19-d4",
-              "nombre": "Rivas"
+              "nombre": "Rivas",
+              "codigoPostal": "11904"
             },
             {
               "id": "p1-c19-d5",
-              "nombre": "San Pedro"
+              "nombre": "San Pedro",
+              "codigoPostal": "11905"
             },
             {
               "id": "p1-c19-d6",
-              "nombre": "Platanares"
+              "nombre": "Platanares",
+              "codigoPostal": "11906"
             },
             {
               "id": "p1-c19-d7",
-              "nombre": "Pejibaye"
+              "nombre": "Pejibaye",
+              "codigoPostal": "11907"
             },
             {
               "id": "p1-c19-d8",
-              "nombre": "Cajon"
+              "nombre": "Cajon",
+              "codigoPostal": "11908"
             },
             {
               "id": "p1-c19-d9",
-              "nombre": "Baru"
+              "nombre": "Baru",
+              "codigoPostal": "11909"
             },
             {
               "id": "p1-c19-d10",
-              "nombre": "Rio Nuevo"
+              "nombre": "Rio Nuevo",
+              "codigoPostal": "11910"
             },
             {
               "id": "p1-c19-d11",
-              "nombre": "Paramo"
+              "nombre": "Paramo",
+              "codigoPostal": "11911"
             }
           ]
         },
@@ -580,27 +694,33 @@
           "distritos": [
             {
               "id": "p1-c20-d1",
-              "nombre": "San Pablo"
+              "nombre": "San Pablo",
+              "codigoPostal": "12001"
             },
             {
               "id": "p1-c20-d2",
-              "nombre": "San Andres"
+              "nombre": "San Andres",
+              "codigoPostal": "12002"
             },
             {
               "id": "p1-c20-d3",
-              "nombre": "Llano Bonito"
+              "nombre": "Llano Bonito",
+              "codigoPostal": "12003"
             },
             {
               "id": "p1-c20-d4",
-              "nombre": "San Isidro"
+              "nombre": "San Isidro",
+              "codigoPostal": "12004"
             },
             {
               "id": "p1-c20-d5",
-              "nombre": "Santa Cruz"
+              "nombre": "Santa Cruz",
+              "codigoPostal": "12005"
             },
             {
               "id": "p1-c20-d6",
-              "nombre": "San Antonio"
+              "nombre": "San Antonio",
+              "codigoPostal": "12006"
             }
           ]
         }
@@ -616,59 +736,73 @@
           "distritos": [
             {
               "id": "p2-c1-d1",
-              "nombre": "Alajuela"
+              "nombre": "Alajuela",
+              "codigoPostal": "20101"
             },
             {
               "id": "p2-c1-d2",
-              "nombre": "San José"
+              "nombre": "San José",
+              "codigoPostal": "20102"
             },
             {
               "id": "p2-c1-d3",
-              "nombre": "Carrizal"
+              "nombre": "Carrizal",
+              "codigoPostal": "20103"
             },
             {
               "id": "p2-c1-d4",
-              "nombre": "San Antonio"
+              "nombre": "San Antonio",
+              "codigoPostal": "20104"
             },
             {
               "id": "p2-c1-d5",
-              "nombre": "Guácima"
+              "nombre": "Guácima",
+              "codigoPostal": "20105"
             },
             {
               "id": "p2-c1-d6",
-              "nombre": "San Isidro"
+              "nombre": "San Isidro",
+              "codigoPostal": "20106"
             },
             {
               "id": "p2-c1-d7",
-              "nombre": "Sabanilla"
+              "nombre": "Sabanilla",
+              "codigoPostal": "20107"
             },
             {
               "id": "p2-c1-d8",
-              "nombre": "San Rafael"
+              "nombre": "San Rafael",
+              "codigoPostal": "20108"
             },
             {
               "id": "p2-c1-d9",
-              "nombre": "Río Segundo"
+              "nombre": "Río Segundo",
+              "codigoPostal": "20109"
             },
             {
               "id": "p2-c1-d10",
-              "nombre": "Desamparados"
+              "nombre": "Desamparados",
+              "codigoPostal": "20110"
             },
             {
               "id": "p2-c1-d11",
-              "nombre": "Turrucares"
+              "nombre": "Turrucares",
+              "codigoPostal": "20111"
             },
             {
               "id": "p2-c1-d12",
-              "nombre": "Tambor"
+              "nombre": "Tambor",
+              "codigoPostal": "20112"
             },
             {
               "id": "p2-c1-d13",
-              "nombre": "Garita"
+              "nombre": "Garita",
+              "codigoPostal": "20113"
             },
             {
               "id": "p2-c1-d14",
-              "nombre": "Sarapiquí"
+              "nombre": "Sarapiquí",
+              "codigoPostal": "20114"
             }
           ]
         },
@@ -678,55 +812,68 @@
           "distritos": [
             {
               "id": "p2-c2-d1",
-              "nombre": "San Ramón"
+              "nombre": "San Ramón",
+              "codigoPostal": "20201"
             },
             {
               "id": "p2-c2-d2",
-              "nombre": "Santiago"
+              "nombre": "Santiago",
+              "codigoPostal": "20202"
             },
             {
               "id": "p2-c2-d3",
-              "nombre": "San Juan"
+              "nombre": "San Juan",
+              "codigoPostal": "20203"
             },
             {
               "id": "p2-c2-d4",
-              "nombre": "Piedades Norte"
+              "nombre": "Piedades Norte",
+              "codigoPostal": "20204"
             },
             {
               "id": "p2-c2-d5",
-              "nombre": "Piedades Sur"
+              "nombre": "Piedades Sur",
+              "codigoPostal": "20205"
             },
             {
               "id": "p2-c2-d6",
-              "nombre": "San Rafael"
+              "nombre": "San Rafael",
+              "codigoPostal": "20206"
             },
             {
               "id": "p2-c2-d7",
-              "nombre": "San Isidro"
+              "nombre": "San Isidro",
+              "codigoPostal": "20207"
             },
             {
               "id": "p2-c2-d8",
-              "nombre": "Ángeles"
+              "nombre": "Ángeles",
+              "codigoPostal": "20208"
             },
             {
               "id": "p2-c2-d9",
-              "nombre": "Alfaro"
+              "nombre": "Alfaro",
+              "codigoPostal": "20209"
             },
             {
               "id": "p2-c2-d10",
-              "nombre": "Volio"
+              "nombre": "Volio",
+              "codigoPostal": "20210"
             },
             {
               "id": "p2-c2-d11",
-              "nombre": "Concepción"
+              "nombre": "Concepción",
+              "codigoPostal": "20211"
             },
             {
               "id": "p2-c2-d12",
-              "nombre": "Zapotal"
+              "nombre": "Zapotal",
+              "codigoPostal": "20212"
             },
             {
               "id": "p2-c2-d13",
-              "nombre": "Peñas Blancas"
+              "nombre": "Peñas Blancas",
+              "codigoPostal": "20213"
             }
           ]
         },
@@ -736,35 +883,43 @@
           "distritos": [
             {
               "id": "p2-c3-d1",
-              "nombre": "Grecia"
+              "nombre": "Grecia",
+              "codigoPostal": "20301"
             },
             {
               "id": "p2-c3-d2",
-              "nombre": "San Isidro"
+              "nombre": "San Isidro",
+              "codigoPostal": "20302"
             },
             {
               "id": "p2-c3-d3",
-              "nombre": "San José"
+              "nombre": "San José",
+              "codigoPostal": "20303"
             },
             {
               "id": "p2-c3-d4",
-              "nombre": "San Roque"
+              "nombre": "San Roque",
+              "codigoPostal": "20304"
             },
             {
               "id": "p2-c3-d5",
-              "nombre": "Tacares"
+              "nombre": "Tacares",
+              "codigoPostal": "20305"
             },
             {
               "id": "p2-c3-d6",
-              "nombre": "Río Cuarto"
+              "nombre": "Río Cuarto",
+              "codigoPostal": "20306"
             },
             {
               "id": "p2-c3-d7",
-              "nombre": "Puente de Piedra"
+              "nombre": "Puente de Piedra",
+              "codigoPostal": "20307"
             },
             {
               "id": "p2-c3-d8",
-              "nombre": "Bolívar"
+              "nombre": "Bolívar",
+              "codigoPostal": "20308"
             }
           ]
         },
@@ -774,15 +929,18 @@
           "distritos": [
             {
               "id": "p2-c4-d1",
-              "nombre": "San Mateo"
+              "nombre": "San Mateo",
+              "codigoPostal": "20401"
             },
             {
               "id": "p2-c4-d2",
-              "nombre": "Desmonte"
+              "nombre": "Desmonte",
+              "codigoPostal": "20402"
             },
             {
               "id": "p2-c4-d3",
-              "nombre": "Jesús María"
+              "nombre": "Jesús María",
+              "codigoPostal": "20403"
             }
           ]
         },
@@ -792,35 +950,43 @@
           "distritos": [
             {
               "id": "p2-c5-d1",
-              "nombre": "Atenas"
+              "nombre": "Atenas",
+              "codigoPostal": "20501"
             },
             {
               "id": "p2-c5-d2",
-              "nombre": "Jesús"
+              "nombre": "Jesús",
+              "codigoPostal": "20502"
             },
             {
               "id": "p2-c5-d3",
-              "nombre": "Mercedes"
+              "nombre": "Mercedes",
+              "codigoPostal": "20503"
             },
             {
               "id": "p2-c5-d4",
-              "nombre": "San Isidro"
+              "nombre": "San Isidro",
+              "codigoPostal": "20504"
             },
             {
               "id": "p2-c5-d5",
-              "nombre": "Concepción"
+              "nombre": "Concepción",
+              "codigoPostal": "20505"
             },
             {
               "id": "p2-c5-d6",
-              "nombre": "San José"
+              "nombre": "San José",
+              "codigoPostal": "20506"
             },
             {
               "id": "p2-c5-d7",
-              "nombre": "Santa Eulalia"
+              "nombre": "Santa Eulalia",
+              "codigoPostal": "20507"
             },
             {
               "id": "p2-c5-d8",
-              "nombre": "Escobal"
+              "nombre": "Escobal",
+              "codigoPostal": "20508"
             }
           ]
         },
@@ -830,35 +996,43 @@
           "distritos": [
             {
               "id": "p2-c6-d1",
-              "nombre": "Naranjo"
+              "nombre": "Naranjo",
+              "codigoPostal": "20601"
             },
             {
               "id": "p2-c6-d2",
-              "nombre": "San Miguel"
+              "nombre": "San Miguel",
+              "codigoPostal": "20602"
             },
             {
               "id": "p2-c6-d3",
-              "nombre": "San José"
+              "nombre": "San José",
+              "codigoPostal": "20603"
             },
             {
               "id": "p2-c6-d4",
-              "nombre": "Cirrí Sur"
+              "nombre": "Cirrí Sur",
+              "codigoPostal": "20604"
             },
             {
               "id": "p2-c6-d5",
-              "nombre": "San Jerónimo"
+              "nombre": "San Jerónimo",
+              "codigoPostal": "20605"
             },
             {
               "id": "p2-c6-d6",
-              "nombre": "San Juan"
+              "nombre": "San Juan",
+              "codigoPostal": "20606"
             },
             {
               "id": "p2-c6-d7",
-              "nombre": "San Juan"
+              "nombre": "San Juan",
+              "codigoPostal": "20607"
             },
             {
               "id": "p2-c6-d8",
-              "nombre": "Palmitos"
+              "nombre": "Palmitos",
+              "codigoPostal": "20608"
             }
           ]
         },
@@ -868,31 +1042,38 @@
           "distritos": [
             {
               "id": "p2-c7-d1",
-              "nombre": "Palmares"
+              "nombre": "Palmares",
+              "codigoPostal": "20701"
             },
             {
               "id": "p2-c7-d2",
-              "nombre": "Zaragoza"
+              "nombre": "Zaragoza",
+              "codigoPostal": "20702"
             },
             {
               "id": "p2-c7-d3",
-              "nombre": "Buenos Aires"
+              "nombre": "Buenos Aires",
+              "codigoPostal": "20703"
             },
             {
               "id": "p2-c7-d4",
-              "nombre": "Santiago"
+              "nombre": "Santiago",
+              "codigoPostal": "20704"
             },
             {
               "id": "p2-c7-d5",
-              "nombre": "Candelaria"
+              "nombre": "Candelaria",
+              "codigoPostal": "20705"
             },
             {
               "id": "p2-c7-d6",
-              "nombre": "Esquipulas"
+              "nombre": "Esquipulas",
+              "codigoPostal": "20706"
             },
             {
               "id": "p2-c7-d7",
-              "nombre": "La Granja"
+              "nombre": "La Granja",
+              "codigoPostal": "20707"
             }
           ]
         },
@@ -902,23 +1083,28 @@
           "distritos": [
             {
               "id": "p2-c8-d1",
-              "nombre": "San Pedro"
+              "nombre": "San Pedro",
+              "codigoPostal": "20801"
             },
             {
               "id": "p2-c8-d2",
-              "nombre": "San Juan"
+              "nombre": "San Juan",
+              "codigoPostal": "20802"
             },
             {
               "id": "p2-c8-d3",
-              "nombre": "San Rafael"
+              "nombre": "San Rafael",
+              "codigoPostal": "20803"
             },
             {
               "id": "p2-c8-d4",
-              "nombre": "Carrillos"
+              "nombre": "Carrillos",
+              "codigoPostal": "20804"
             },
             {
               "id": "p2-c8-d5",
-              "nombre": "Sabana Redonda"
+              "nombre": "Sabana Redonda",
+              "codigoPostal": "20805"
             }
           ]
         },
@@ -928,23 +1114,28 @@
           "distritos": [
             {
               "id": "p2-c9-d1",
-              "nombre": "Orotina"
+              "nombre": "Orotina",
+              "codigoPostal": "20901"
             },
             {
               "id": "p2-c9-d2",
-              "nombre": "Mastate"
+              "nombre": "Mastate",
+              "codigoPostal": "20902"
             },
             {
               "id": "p2-c9-d3",
-              "nombre": "Hacienda Vieja"
+              "nombre": "Hacienda Vieja",
+              "codigoPostal": "20903"
             },
             {
               "id": "p2-c9-d4",
-              "nombre": "Coyolar"
+              "nombre": "Coyolar",
+              "codigoPostal": "20904"
             },
             {
               "id": "p2-c9-d5",
-              "nombre": "La Ceiba"
+              "nombre": "La Ceiba",
+              "codigoPostal": "20905"
             }
           ]
         },
@@ -954,55 +1145,68 @@
           "distritos": [
             {
               "id": "p2-c10-d1",
-              "nombre": "Quesada"
+              "nombre": "Quesada",
+              "codigoPostal": "21001"
             },
             {
               "id": "p2-c10-d2",
-              "nombre": "Florencia"
+              "nombre": "Florencia",
+              "codigoPostal": "21002"
             },
             {
               "id": "p2-c10-d3",
-              "nombre": "Buenavista"
+              "nombre": "Buenavista",
+              "codigoPostal": "21003"
             },
             {
               "id": "p2-c10-d4",
-              "nombre": "Aguas Zarcas"
+              "nombre": "Aguas Zarcas",
+              "codigoPostal": "21004"
             },
             {
               "id": "p2-c10-d5",
-              "nombre": "Venecia"
+              "nombre": "Venecia",
+              "codigoPostal": "21005"
             },
             {
               "id": "p2-c10-d6",
-              "nombre": "Pital"
+              "nombre": "Pital",
+              "codigoPostal": "21006"
             },
             {
               "id": "p2-c10-d7",
-              "nombre": "La Fortuna"
+              "nombre": "La Fortuna",
+              "codigoPostal": "21007"
             },
             {
               "id": "p2-c10-d8",
-              "nombre": "La Tigra"
+              "nombre": "La Tigra",
+              "codigoPostal": "21008"
             },
             {
               "id": "p2-c10-d9",
-              "nombre": "La Palmera"
+              "nombre": "La Palmera",
+              "codigoPostal": "21009"
             },
             {
               "id": "p2-c10-d10",
-              "nombre": "Venado"
+              "nombre": "Venado",
+              "codigoPostal": "21010"
             },
             {
               "id": "p2-c10-d11",
-              "nombre": "Cutris"
+              "nombre": "Cutris",
+              "codigoPostal": "21011"
             },
             {
               "id": "p2-c10-d12",
-              "nombre": "Monterrey"
+              "nombre": "Monterrey",
+              "codigoPostal": "21012"
             },
             {
               "id": "p2-c10-d13",
-              "nombre": "Pocosol"
+              "nombre": "Pocosol",
+              "codigoPostal": "21013"
             }
           ]
         },
@@ -1012,31 +1216,38 @@
           "distritos": [
             {
               "id": "p2-c11-d1",
-              "nombre": "Zarcero"
+              "nombre": "Zarcero",
+              "codigoPostal": "21101"
             },
             {
               "id": "p2-c11-d2",
-              "nombre": "Laguna"
+              "nombre": "Laguna",
+              "codigoPostal": "21102"
             },
             {
               "id": "p2-c11-d3",
-              "nombre": "Tapesco"
+              "nombre": "Tapesco",
+              "codigoPostal": "21103"
             },
             {
               "id": "p2-c11-d4",
-              "nombre": "Guadalupe"
+              "nombre": "Guadalupe",
+              "codigoPostal": "21104"
             },
             {
               "id": "p2-c11-d5",
-              "nombre": "Palmira"
+              "nombre": "Palmira",
+              "codigoPostal": "21105"
             },
             {
               "id": "p2-c11-d6",
-              "nombre": "Zapote"
+              "nombre": "Zapote",
+              "codigoPostal": "21106"
             },
             {
               "id": "p2-c11-d7",
-              "nombre": "Brisas"
+              "nombre": "Brisas",
+              "codigoPostal": "21107"
             }
           ]
         },
@@ -1046,23 +1257,28 @@
           "distritos": [
             {
               "id": "p2-c12-d1",
-              "nombre": "Sarchí Norte"
+              "nombre": "Sarchí Norte",
+              "codigoPostal": "21201"
             },
             {
               "id": "p2-c12-d2",
-              "nombre": "Sarchí Sur"
+              "nombre": "Sarchí Sur",
+              "codigoPostal": "21202"
             },
             {
               "id": "p2-c12-d3",
-              "nombre": "Toro Amarillo"
+              "nombre": "Toro Amarillo",
+              "codigoPostal": "21203"
             },
             {
               "id": "p2-c12-d4",
-              "nombre": "San Pedro"
+              "nombre": "San Pedro",
+              "codigoPostal": "21204"
             },
             {
               "id": "p2-c12-d5",
-              "nombre": "Rodríguez"
+              "nombre": "Rodríguez",
+              "codigoPostal": "21205"
             }
           ]
         },
@@ -1072,31 +1288,38 @@
           "distritos": [
             {
               "id": "p2-c13-d1",
-              "nombre": "Upala"
+              "nombre": "Upala",
+              "codigoPostal": "21301"
             },
             {
               "id": "p2-c13-d2",
-              "nombre": "Aguas Claras"
+              "nombre": "Aguas Claras",
+              "codigoPostal": "21302"
             },
             {
               "id": "p2-c13-d3",
-              "nombre": "San José(Pizote)"
+              "nombre": "San José(Pizote)",
+              "codigoPostal": "21303"
             },
             {
               "id": "p2-c13-d4",
-              "nombre": "Bijagua"
+              "nombre": "Bijagua",
+              "codigoPostal": "21304"
             },
             {
               "id": "p2-c13-d5",
-              "nombre": "Delicias"
+              "nombre": "Delicias",
+              "codigoPostal": "21305"
             },
             {
               "id": "p2-c13-d6",
-              "nombre": "Dos Ríos"
+              "nombre": "Dos Ríos",
+              "codigoPostal": "21306"
             },
             {
               "id": "p2-c13-d7",
-              "nombre": "Yolillal"
+              "nombre": "Yolillal",
+              "codigoPostal": "21307"
             }
           ]
         },
@@ -1106,19 +1329,23 @@
           "distritos": [
             {
               "id": "p2-c14-d1",
-              "nombre": "Los Chiles"
+              "nombre": "Los Chiles",
+              "codigoPostal": "21401"
             },
             {
               "id": "p2-c14-d2",
-              "nombre": "Caño Negro"
+              "nombre": "Caño Negro",
+              "codigoPostal": "21402"
             },
             {
               "id": "p2-c14-d3",
-              "nombre": "El Amparo"
+              "nombre": "El Amparo",
+              "codigoPostal": "21403"
             },
             {
               "id": "p2-c14-d4",
-              "nombre": "San Jorge"
+              "nombre": "San Jorge",
+              "codigoPostal": "21404"
             }
           ]
         },
@@ -1128,19 +1355,23 @@
           "distritos": [
             {
               "id": "p2-c15-d1",
-              "nombre": "San Rafael"
+              "nombre": "San Rafael",
+              "codigoPostal": "21501"
             },
             {
               "id": "p2-c15-d2",
-              "nombre": "Buenavista"
+              "nombre": "Buenavista",
+              "codigoPostal": "21502"
             },
             {
               "id": "p2-c15-d3",
-              "nombre": "Cote"
+              "nombre": "Cote",
+              "codigoPostal": "21503"
             },
             {
               "id": "p2-c15-d4",
-              "nombre": "Katira"
+              "nombre": "Katira",
+              "codigoPostal": "21504"
             }
           ]
         },
@@ -1150,7 +1381,8 @@
           "distritos": [
             {
               "id": "p2-c16-d1",
-              "nombre": "Río Cuarto"
+              "nombre": "Río Cuarto",
+              "codigoPostal": "21601"
             }
           ]
         }
@@ -1166,47 +1398,58 @@
           "distritos": [
             {
               "id": "p3-c1-d1",
-              "nombre": "Oriental"
+              "nombre": "Oriental",
+              "codigoPostal": "30101"
             },
             {
               "id": "p3-c1-d2",
-              "nombre": "Occidental"
+              "nombre": "Occidental",
+              "codigoPostal": "30102"
             },
             {
               "id": "p3-c1-d3",
-              "nombre": "Carmen"
+              "nombre": "Carmen",
+              "codigoPostal": "30103"
             },
             {
               "id": "p3-c1-d4",
-              "nombre": "San Nicolás"
+              "nombre": "San Nicolás",
+              "codigoPostal": "30104"
             },
             {
               "id": "p3-c1-d5",
-              "nombre": "Aguacaliente (San Francisco)"
+              "nombre": "Aguacaliente (San Francisco)",
+              "codigoPostal": "30105"
             },
             {
               "id": "p3-c1-d6",
-              "nombre": "Guadalupe (Arenilla)"
+              "nombre": "Guadalupe (Arenilla)",
+              "codigoPostal": "30106"
             },
             {
               "id": "p3-c1-d7",
-              "nombre": "Corralillo"
+              "nombre": "Corralillo",
+              "codigoPostal": "30107"
             },
             {
               "id": "p3-c1-d8",
-              "nombre": "Tierra Blanca"
+              "nombre": "Tierra Blanca",
+              "codigoPostal": "30108"
             },
             {
               "id": "p3-c1-d9",
-              "nombre": "Dulce Nombre"
+              "nombre": "Dulce Nombre",
+              "codigoPostal": "30109"
             },
             {
               "id": "p3-c1-d10",
-              "nombre": "Llano Grande"
+              "nombre": "Llano Grande",
+              "codigoPostal": "30110"
             },
             {
               "id": "p3-c1-d11",
-              "nombre": "Quebradilla"
+              "nombre": "Quebradilla",
+              "codigoPostal": "30111"
             }
           ]
         },
@@ -1216,23 +1459,28 @@
           "distritos": [
             {
               "id": "p3-c2-d1",
-              "nombre": "Paraíso"
+              "nombre": "Paraíso",
+              "codigoPostal": "30201"
             },
             {
               "id": "p3-c2-d2",
-              "nombre": "Santiago"
+              "nombre": "Santiago",
+              "codigoPostal": "30202"
             },
             {
               "id": "p3-c2-d3",
-              "nombre": "Orosi"
+              "nombre": "Orosi",
+              "codigoPostal": "30203"
             },
             {
               "id": "p3-c2-d4",
-              "nombre": "Cachí"
+              "nombre": "Cachí",
+              "codigoPostal": "30204"
             },
             {
               "id": "p3-c2-d5",
-              "nombre": "Llanos de Santa Lucía"
+              "nombre": "Llanos de Santa Lucía",
+              "codigoPostal": "30205"
             }
           ]
         },
@@ -1242,35 +1490,43 @@
           "distritos": [
             {
               "id": "p3-c3-d1",
-              "nombre": "Tres Ríos"
+              "nombre": "Tres Ríos",
+              "codigoPostal": "30301"
             },
             {
               "id": "p3-c3-d2",
-              "nombre": "San Diego"
+              "nombre": "San Diego",
+              "codigoPostal": "30302"
             },
             {
               "id": "p3-c3-d3",
-              "nombre": "San Juan"
+              "nombre": "San Juan",
+              "codigoPostal": "30303"
             },
             {
               "id": "p3-c3-d4",
-              "nombre": "San Rafael"
+              "nombre": "San Rafael",
+              "codigoPostal": "30304"
             },
             {
               "id": "p3-c3-d5",
-              "nombre": "Concepción"
+              "nombre": "Concepción",
+              "codigoPostal": "30305"
             },
             {
               "id": "p3-c3-d6",
-              "nombre": "Dulce Nombre"
+              "nombre": "Dulce Nombre",
+              "codigoPostal": "30306"
             },
             {
               "id": "p3-c3-d7",
-              "nombre": "San Ramón"
+              "nombre": "San Ramón",
+              "codigoPostal": "30307"
             },
             {
               "id": "p3-c3-d8",
-              "nombre": "Río Azul"
+              "nombre": "Río Azul",
+              "codigoPostal": "30308"
             }
           ]
         },
@@ -1280,15 +1536,18 @@
           "distritos": [
             {
               "id": "p3-c4-d1",
-              "nombre": "Juan Vinas"
+              "nombre": "Juan Vinas",
+              "codigoPostal": "30401"
             },
             {
               "id": "p3-c4-d2",
-              "nombre": "Tucurrique"
+              "nombre": "Tucurrique",
+              "codigoPostal": "30402"
             },
             {
               "id": "p3-c4-d3",
-              "nombre": "Pejibaye"
+              "nombre": "Pejibaye",
+              "codigoPostal": "30403"
             }
           ]
         },
@@ -1298,51 +1557,63 @@
           "distritos": [
             {
               "id": "p3-c5-d1",
-              "nombre": "Turrialba"
+              "nombre": "Turrialba",
+              "codigoPostal": "30501"
             },
             {
               "id": "p3-c5-d2",
-              "nombre": "La Suiza"
+              "nombre": "La Suiza",
+              "codigoPostal": "30502"
             },
             {
               "id": "p3-c5-d3",
-              "nombre": "Peralta"
+              "nombre": "Peralta",
+              "codigoPostal": "30503"
             },
             {
               "id": "p3-c5-d4",
-              "nombre": "Santa Cruz"
+              "nombre": "Santa Cruz",
+              "codigoPostal": "30504"
             },
             {
               "id": "p3-c5-d5",
-              "nombre": "Santa Teresita"
+              "nombre": "Santa Teresita",
+              "codigoPostal": "30505"
             },
             {
               "id": "p3-c5-d6",
-              "nombre": "Pavones"
+              "nombre": "Pavones",
+              "codigoPostal": "30506"
             },
             {
               "id": "p3-c5-d7",
-              "nombre": "Tuis"
+              "nombre": "Tuis",
+              "codigoPostal": "30507"
             },
             {
               "id": "p3-c5-d8",
-              "nombre": "Tayutic"
+              "nombre": "Tayutic",
+              "codigoPostal": "30508"
             },
             {
               "id": "p3-c5-d9",
-              "nombre": "Santa Rosa"
+              "nombre": "Santa Rosa",
+              "codigoPostal": "30509"
             },
             {
               "id": "p3-c5-d10",
-              "nombre": "Tres Equis"
+              "nombre": "Tres Equis",
+              "codigoPostal": "30510"
             },
             {
               "id": "p3-c5-d11",
-              "nombre": "La Isabel"
+              "nombre": "La Isabel",
+              "codigoPostal": "30511"
             },
             {
               "id": "p3-c5-d12",
-              "nombre": "Chirripo"
+              "nombre": "Chirripo",
+              "codigoPostal": "30512"
             }
           ]
         },
@@ -1352,15 +1623,18 @@
           "distritos": [
             {
               "id": "p3-c6-d1",
-              "nombre": "Pacayas"
+              "nombre": "Pacayas",
+              "codigoPostal": "30601"
             },
             {
               "id": "p3-c6-d2",
-              "nombre": "Cervantes"
+              "nombre": "Cervantes",
+              "codigoPostal": "30602"
             },
             {
               "id": "p3-c6-d3",
-              "nombre": "Capellades"
+              "nombre": "Capellades",
+              "codigoPostal": "30603"
             }
           ]
         },
@@ -1370,23 +1644,28 @@
           "distritos": [
             {
               "id": "p3-c7-d1",
-              "nombre": "San Rafael"
+              "nombre": "San Rafael",
+              "codigoPostal": "30701"
             },
             {
               "id": "p3-c7-d2",
-              "nombre": "Cot"
+              "nombre": "Cot",
+              "codigoPostal": "30702"
             },
             {
               "id": "p3-c7-d3",
-              "nombre": "Potrero Cerrado"
+              "nombre": "Potrero Cerrado",
+              "codigoPostal": "30703"
             },
             {
               "id": "p3-c7-d4",
-              "nombre": "Cipreses"
+              "nombre": "Cipreses",
+              "codigoPostal": "30704"
             },
             {
               "id": "p3-c7-d5",
-              "nombre": "Santa Rosa"
+              "nombre": "Santa Rosa",
+              "codigoPostal": "30705"
             }
           ]
         },
@@ -1396,19 +1675,23 @@
           "distritos": [
             {
               "id": "p3-c8-d1",
-              "nombre": "Tejar"
+              "nombre": "Tejar",
+              "codigoPostal": "30801"
             },
             {
               "id": "p3-c8-d2",
-              "nombre": "San Isidro"
+              "nombre": "San Isidro",
+              "codigoPostal": "30802"
             },
             {
               "id": "p3-c8-d3",
-              "nombre": "Tobosi"
+              "nombre": "Tobosi",
+              "codigoPostal": "30803"
             },
             {
               "id": "p3-c8-d4",
-              "nombre": "Patio de Agua"
+              "nombre": "Patio de Agua",
+              "codigoPostal": "30804"
             }
           ]
         }
@@ -1424,23 +1707,28 @@
           "distritos": [
             {
               "id": "p4-c1-d1",
-              "nombre": "Heredia"
+              "nombre": "Heredia",
+              "codigoPostal": "40101"
             },
             {
               "id": "p4-c1-d2",
-              "nombre": "Mercedes"
+              "nombre": "Mercedes",
+              "codigoPostal": "40102"
             },
             {
               "id": "p4-c1-d3",
-              "nombre": "San Francisco"
+              "nombre": "San Francisco",
+              "codigoPostal": "40103"
             },
             {
               "id": "p4-c1-d4",
-              "nombre": "Ulloa"
+              "nombre": "Ulloa",
+              "codigoPostal": "40104"
             },
             {
               "id": "p4-c1-d5",
-              "nombre": "Varablanca"
+              "nombre": "Varablanca",
+              "codigoPostal": "40105"
             }
           ]
         },
@@ -1450,27 +1738,33 @@
           "distritos": [
             {
               "id": "p4-c2-d1",
-              "nombre": "Barva"
+              "nombre": "Barva",
+              "codigoPostal": "40201"
             },
             {
               "id": "p4-c2-d2",
-              "nombre": "San Pedro"
+              "nombre": "San Pedro",
+              "codigoPostal": "40202"
             },
             {
               "id": "p4-c2-d3",
-              "nombre": "San Pablo"
+              "nombre": "San Pablo",
+              "codigoPostal": "40203"
             },
             {
               "id": "p4-c2-d4",
-              "nombre": "San Roque"
+              "nombre": "San Roque",
+              "codigoPostal": "40204"
             },
             {
               "id": "p4-c2-d5",
-              "nombre": "Santa Lucía"
+              "nombre": "Santa Lucía",
+              "codigoPostal": "40205"
             },
             {
               "id": "p4-c2-d6",
-              "nombre": "San José de la Montaña"
+              "nombre": "San José de la Montaña",
+              "codigoPostal": "40206"
             }
           ]
         },
@@ -1480,35 +1774,43 @@
           "distritos": [
             {
               "id": "p4-c3-d1",
-              "nombre": "Santo Domingo"
+              "nombre": "Santo Domingo",
+              "codigoPostal": "40301"
             },
             {
               "id": "p4-c3-d2",
-              "nombre": "San Vicente"
+              "nombre": "San Vicente",
+              "codigoPostal": "40302"
             },
             {
               "id": "p4-c3-d3",
-              "nombre": "San Miguel"
+              "nombre": "San Miguel",
+              "codigoPostal": "40303"
             },
             {
               "id": "p4-c3-d4",
-              "nombre": "Paracito"
+              "nombre": "Paracito",
+              "codigoPostal": "40304"
             },
             {
               "id": "p4-c3-d5",
-              "nombre": "Santo Tomas"
+              "nombre": "Santo Tomas",
+              "codigoPostal": "40305"
             },
             {
               "id": "p4-c3-d6",
-              "nombre": "Santa Rosa"
+              "nombre": "Santa Rosa",
+              "codigoPostal": "40306"
             },
             {
               "id": "p4-c3-d7",
-              "nombre": "Tures"
+              "nombre": "Tures",
+              "codigoPostal": "40307"
             },
             {
               "id": "p4-c3-d8",
-              "nombre": "Pará"
+              "nombre": "Pará",
+              "codigoPostal": "40308"
             }
           ]
         },
@@ -1518,27 +1820,33 @@
           "distritos": [
             {
               "id": "p4-c4-d1",
-              "nombre": "Santa Bárbara"
+              "nombre": "Santa Bárbara",
+              "codigoPostal": "40401"
             },
             {
               "id": "p4-c4-d2",
-              "nombre": "San Pedro"
+              "nombre": "San Pedro",
+              "codigoPostal": "40402"
             },
             {
               "id": "p4-c4-d3",
-              "nombre": "San Juan"
+              "nombre": "San Juan",
+              "codigoPostal": "40403"
             },
             {
               "id": "p4-c4-d4",
-              "nombre": "Jesús"
+              "nombre": "Jesús",
+              "codigoPostal": "40404"
             },
             {
               "id": "p4-c4-d5",
-              "nombre": "Purabá"
+              "nombre": "Purabá",
+              "codigoPostal": "40405"
             },
             {
               "id": "p4-c4-d6",
-              "nombre": "Santo Domingo"
+              "nombre": "Santo Domingo",
+              "codigoPostal": "40406"
             }
           ]
         },
@@ -1548,23 +1856,28 @@
           "distritos": [
             {
               "id": "p4-c5-d1",
-              "nombre": "San Rafael"
+              "nombre": "San Rafael",
+              "codigoPostal": "40501"
             },
             {
               "id": "p4-c5-d2",
-              "nombre": "San Josécito"
+              "nombre": "San Josécito",
+              "codigoPostal": "40502"
             },
             {
               "id": "p4-c5-d3",
-              "nombre": "Santiago"
+              "nombre": "Santiago",
+              "codigoPostal": "40503"
             },
             {
               "id": "p4-c5-d4",
-              "nombre": "Ángeles"
+              "nombre": "Ángeles",
+              "codigoPostal": "40504"
             },
             {
               "id": "p4-c5-d5",
-              "nombre": "Concepción"
+              "nombre": "Concepción",
+              "codigoPostal": "40505"
             }
           ]
         },
@@ -1574,19 +1887,23 @@
           "distritos": [
             {
               "id": "p4-c6-d1",
-              "nombre": "San Isidro"
+              "nombre": "San Isidro",
+              "codigoPostal": "40601"
             },
             {
               "id": "p4-c6-d2",
-              "nombre": "San José"
+              "nombre": "San José",
+              "codigoPostal": "40602"
             },
             {
               "id": "p4-c6-d3",
-              "nombre": "Concepción"
+              "nombre": "Concepción",
+              "codigoPostal": "40603"
             },
             {
               "id": "p4-c6-d4",
-              "nombre": "San Francisco"
+              "nombre": "San Francisco",
+              "codigoPostal": "40604"
             }
           ]
         },
@@ -1596,15 +1913,18 @@
           "distritos": [
             {
               "id": "p4-c7-d1",
-              "nombre": "San Antonio"
+              "nombre": "San Antonio",
+              "codigoPostal": "40701"
             },
             {
               "id": "p4-c7-d2",
-              "nombre": "Ribera"
+              "nombre": "Ribera",
+              "codigoPostal": "40702"
             },
             {
               "id": "p4-c7-d3",
-              "nombre": "La Asunción"
+              "nombre": "La Asunción",
+              "codigoPostal": "40703"
             }
           ]
         },
@@ -1614,15 +1934,18 @@
           "distritos": [
             {
               "id": "p4-c8-d1",
-              "nombre": "San Joaquín"
+              "nombre": "San Joaquín",
+              "codigoPostal": "40801"
             },
             {
               "id": "p4-c8-d2",
-              "nombre": "Barrantes"
+              "nombre": "Barrantes",
+              "codigoPostal": "40802"
             },
             {
               "id": "p4-c8-d3",
-              "nombre": "Llorente"
+              "nombre": "Llorente",
+              "codigoPostal": "40803"
             }
           ]
         },
@@ -1632,11 +1955,13 @@
           "distritos": [
             {
               "id": "p4-c9-d1",
-              "nombre": "San Pablo"
+              "nombre": "San Pablo",
+              "codigoPostal": "40901"
             },
             {
               "id": "p4-c9-d2",
-              "nombre": "Rincón de Sabanilla"
+              "nombre": "Rincón de Sabanilla",
+              "codigoPostal": "40902"
             }
           ]
         },
@@ -1646,23 +1971,28 @@
           "distritos": [
             {
               "id": "p4-c10-d1",
-              "nombre": "Puerto Viejo"
+              "nombre": "Puerto Viejo",
+              "codigoPostal": "41001"
             },
             {
               "id": "p4-c10-d2",
-              "nombre": "La Virgen"
+              "nombre": "La Virgen",
+              "codigoPostal": "41002"
             },
             {
               "id": "p4-c10-d3",
-              "nombre": "7"
+              "nombre": "7",
+              "codigoPostal": "41003"
             },
             {
               "id": "p4-c10-d4",
-              "nombre": "9"
+              "nombre": "9",
+              "codigoPostal": "41004"
             },
             {
               "id": "p4-c10-d5",
-              "nombre": "6"
+              "nombre": "6",
+              "codigoPostal": "41005"
             }
           ]
         }
@@ -1678,23 +2008,28 @@
           "distritos": [
             {
               "id": "p5-c1-d1",
-              "nombre": "Liberia"
+              "nombre": "Liberia",
+              "codigoPostal": "50101"
             },
             {
               "id": "p5-c1-d2",
-              "nombre": "Cañas Dulces"
+              "nombre": "Cañas Dulces",
+              "codigoPostal": "50102"
             },
             {
               "id": "p5-c1-d3",
-              "nombre": "Mayorga"
+              "nombre": "Mayorga",
+              "codigoPostal": "50103"
             },
             {
               "id": "p5-c1-d4",
-              "nombre": "Nacascolo"
+              "nombre": "Nacascolo",
+              "codigoPostal": "50104"
             },
             {
               "id": "p5-c1-d5",
-              "nombre": "Curubandé"
+              "nombre": "Curubandé",
+              "codigoPostal": "50105"
             }
           ]
         },
@@ -1704,31 +2039,38 @@
           "distritos": [
             {
               "id": "p5-c2-d1",
-              "nombre": "Nicoya"
+              "nombre": "Nicoya",
+              "codigoPostal": "50201"
             },
             {
               "id": "p5-c2-d2",
-              "nombre": "Mansión"
+              "nombre": "Mansión",
+              "codigoPostal": "50202"
             },
             {
               "id": "p5-c2-d3",
-              "nombre": "San Antonio"
+              "nombre": "San Antonio",
+              "codigoPostal": "50203"
             },
             {
               "id": "p5-c2-d4",
-              "nombre": "Quebrada Honda"
+              "nombre": "Quebrada Honda",
+              "codigoPostal": "50204"
             },
             {
               "id": "p5-c2-d5",
-              "nombre": "Sámara"
+              "nombre": "Sámara",
+              "codigoPostal": "50205"
             },
             {
               "id": "p5-c2-d6",
-              "nombre": "Nosara"
+              "nombre": "Nosara",
+              "codigoPostal": "50206"
             },
             {
               "id": "p5-c2-d7",
-              "nombre": "Belén de Nosarita"
+              "nombre": "Belén de Nosarita",
+              "codigoPostal": "50207"
             }
           ]
         },
@@ -1738,39 +2080,48 @@
           "distritos": [
             {
               "id": "p5-c3-d1",
-              "nombre": "Santa Cruz"
+              "nombre": "Santa Cruz",
+              "codigoPostal": "50301"
             },
             {
               "id": "p5-c3-d2",
-              "nombre": "Bolson"
+              "nombre": "Bolson",
+              "codigoPostal": "50302"
             },
             {
               "id": "p5-c3-d3",
-              "nombre": "Veintisiete de Abril"
+              "nombre": "Veintisiete de Abril",
+              "codigoPostal": "50303"
             },
             {
               "id": "p5-c3-d4",
-              "nombre": "Tempate"
+              "nombre": "Tempate",
+              "codigoPostal": "50304"
             },
             {
               "id": "p5-c3-d5",
-              "nombre": "Cartagena"
+              "nombre": "Cartagena",
+              "codigoPostal": "50305"
             },
             {
               "id": "p5-c3-d6",
-              "nombre": "Cuajiniquil"
+              "nombre": "Cuajiniquil",
+              "codigoPostal": "50306"
             },
             {
               "id": "p5-c3-d7",
-              "nombre": "Diriá"
+              "nombre": "Diriá",
+              "codigoPostal": "50307"
             },
             {
               "id": "p5-c3-d8",
-              "nombre": "Cabo Velas"
+              "nombre": "Cabo Velas",
+              "codigoPostal": "50308"
             },
             {
               "id": "p5-c3-d9",
-              "nombre": "Tamarindo"
+              "nombre": "Tamarindo",
+              "codigoPostal": "50309"
             }
           ]
         },
@@ -1780,19 +2131,23 @@
           "distritos": [
             {
               "id": "p5-c4-d1",
-              "nombre": "Bagaces"
+              "nombre": "Bagaces",
+              "codigoPostal": "50401"
             },
             {
               "id": "p5-c4-d2",
-              "nombre": "La Fortuna"
+              "nombre": "La Fortuna",
+              "codigoPostal": "50402"
             },
             {
               "id": "p5-c4-d3",
-              "nombre": "Mogote"
+              "nombre": "Mogote",
+              "codigoPostal": "50403"
             },
             {
               "id": "p5-c4-d4",
-              "nombre": "Río Naranjo"
+              "nombre": "Río Naranjo",
+              "codigoPostal": "50404"
             }
           ]
         },
@@ -1802,19 +2157,23 @@
           "distritos": [
             {
               "id": "p5-c5-d1",
-              "nombre": "Filadelfia"
+              "nombre": "Filadelfia",
+              "codigoPostal": "50501"
             },
             {
               "id": "p5-c5-d2",
-              "nombre": "Palmira"
+              "nombre": "Palmira",
+              "codigoPostal": "50502"
             },
             {
               "id": "p5-c5-d3",
-              "nombre": "Sardinal"
+              "nombre": "Sardinal",
+              "codigoPostal": "50503"
             },
             {
               "id": "p5-c5-d4",
-              "nombre": "Belén"
+              "nombre": "Belén",
+              "codigoPostal": "50504"
             }
           ]
         },
@@ -1824,23 +2183,28 @@
           "distritos": [
             {
               "id": "p5-c6-d1",
-              "nombre": "Cañas"
+              "nombre": "Cañas",
+              "codigoPostal": "50601"
             },
             {
               "id": "p5-c6-d2",
-              "nombre": "San Miguel"
+              "nombre": "San Miguel",
+              "codigoPostal": "50602"
             },
             {
               "id": "p5-c6-d3",
-              "nombre": "Palmira"
+              "nombre": "Palmira",
+              "codigoPostal": "50603"
             },
             {
               "id": "p5-c6-d4",
-              "nombre": "Bebedero"
+              "nombre": "Bebedero",
+              "codigoPostal": "50604"
             },
             {
               "id": "p5-c6-d5",
-              "nombre": "Porozal"
+              "nombre": "Porozal",
+              "codigoPostal": "50605"
             }
           ]
         },
@@ -1850,19 +2214,23 @@
           "distritos": [
             {
               "id": "p5-c7-d1",
-              "nombre": "Colorado"
+              "nombre": "Colorado",
+              "codigoPostal": "50701"
             },
             {
               "id": "p5-c7-d2",
-              "nombre": "Juntas"
+              "nombre": "Juntas",
+              "codigoPostal": "50702"
             },
             {
               "id": "p5-c7-d3",
-              "nombre": "San Juan"
+              "nombre": "San Juan",
+              "codigoPostal": "50703"
             },
             {
               "id": "p5-c7-d4",
-              "nombre": "Sierra"
+              "nombre": "Sierra",
+              "codigoPostal": "50704"
             }
           ]
         },
@@ -1872,31 +2240,38 @@
           "distritos": [
             {
               "id": "p5-c8-d1",
-              "nombre": "Tilarán"
+              "nombre": "Tilarán",
+              "codigoPostal": "50801"
             },
             {
               "id": "p5-c8-d2",
-              "nombre": "Quebrada Grande"
+              "nombre": "Quebrada Grande",
+              "codigoPostal": "50802"
             },
             {
               "id": "p5-c8-d3",
-              "nombre": "Tronadora"
+              "nombre": "Tronadora",
+              "codigoPostal": "50803"
             },
             {
               "id": "p5-c8-d4",
-              "nombre": "Santa Rosa"
+              "nombre": "Santa Rosa",
+              "codigoPostal": "50804"
             },
             {
               "id": "p5-c8-d5",
-              "nombre": "Libano"
+              "nombre": "Libano",
+              "codigoPostal": "50805"
             },
             {
               "id": "p5-c8-d6",
-              "nombre": "Tierras Morenas"
+              "nombre": "Tierras Morenas",
+              "codigoPostal": "50806"
             },
             {
               "id": "p5-c8-d7",
-              "nombre": "Arenal"
+              "nombre": "Arenal",
+              "codigoPostal": "50807"
             }
           ]
         },
@@ -1906,27 +2281,33 @@
           "distritos": [
             {
               "id": "p5-c9-d1",
-              "nombre": "Carmona"
+              "nombre": "Carmona",
+              "codigoPostal": "50901"
             },
             {
               "id": "p5-c9-d2",
-              "nombre": "Santa Rita"
+              "nombre": "Santa Rita",
+              "codigoPostal": "50902"
             },
             {
               "id": "p5-c9-d3",
-              "nombre": "Zapotal"
+              "nombre": "Zapotal",
+              "codigoPostal": "50903"
             },
             {
               "id": "p5-c9-d4",
-              "nombre": "San Pablo"
+              "nombre": "San Pablo",
+              "codigoPostal": "50904"
             },
             {
               "id": "p5-c9-d5",
-              "nombre": "Porvenir"
+              "nombre": "Porvenir",
+              "codigoPostal": "50905"
             },
             {
               "id": "p5-c9-d6",
-              "nombre": "Bejuco"
+              "nombre": "Bejuco",
+              "codigoPostal": "50906"
             }
           ]
         },
@@ -1936,19 +2317,23 @@
           "distritos": [
             {
               "id": "p5-c10-d1",
-              "nombre": "La Cruz"
+              "nombre": "La Cruz",
+              "codigoPostal": "51001"
             },
             {
               "id": "p5-c10-d2",
-              "nombre": "Santa Cecilia"
+              "nombre": "Santa Cecilia",
+              "codigoPostal": "51002"
             },
             {
               "id": "p5-c10-d3",
-              "nombre": "Garita"
+              "nombre": "Garita",
+              "codigoPostal": "51003"
             },
             {
               "id": "p5-c10-d4",
-              "nombre": "Santa Elena"
+              "nombre": "Santa Elena",
+              "codigoPostal": "51004"
             }
           ]
         },
@@ -1958,19 +2343,23 @@
           "distritos": [
             {
               "id": "p5-c11-d1",
-              "nombre": "Hojancha"
+              "nombre": "Hojancha",
+              "codigoPostal": "51101"
             },
             {
               "id": "p5-c11-d2",
-              "nombre": "Monte Romo"
+              "nombre": "Monte Romo",
+              "codigoPostal": "51102"
             },
             {
               "id": "p5-c11-d3",
-              "nombre": "Puerto Carrillo"
+              "nombre": "Puerto Carrillo",
+              "codigoPostal": "51103"
             },
             {
               "id": "p5-c11-d4",
-              "nombre": "Huacas"
+              "nombre": "Huacas",
+              "codigoPostal": "51104"
             }
           ]
         }
@@ -1986,67 +2375,83 @@
           "distritos": [
             {
               "id": "p6-c1-d1",
-              "nombre": "Puntarenas"
+              "nombre": "Puntarenas",
+              "codigoPostal": "60101"
             },
             {
               "id": "p6-c1-d2",
-              "nombre": "Pitahaya"
+              "nombre": "Pitahaya",
+              "codigoPostal": "60102"
             },
             {
               "id": "p6-c1-d3",
-              "nombre": "Chomes"
+              "nombre": "Chomes",
+              "codigoPostal": "60103"
             },
             {
               "id": "p6-c1-d4",
-              "nombre": "Lepanto"
+              "nombre": "Lepanto",
+              "codigoPostal": "60104"
             },
             {
               "id": "p6-c1-d5",
-              "nombre": "Paquera"
+              "nombre": "Paquera",
+              "codigoPostal": "60105"
             },
             {
               "id": "p6-c1-d6",
-              "nombre": "Manzanillo"
+              "nombre": "Manzanillo",
+              "codigoPostal": "60106"
             },
             {
               "id": "p6-c1-d7",
-              "nombre": "Guacimal"
+              "nombre": "Guacimal",
+              "codigoPostal": "60107"
             },
             {
               "id": "p6-c1-d8",
-              "nombre": "Barranca"
+              "nombre": "Barranca",
+              "codigoPostal": "60108"
             },
             {
               "id": "p6-c1-d9",
-              "nombre": "Monte Verde"
+              "nombre": "Monte Verde",
+              "codigoPostal": "60109"
             },
             {
               "id": "p6-c1-d10",
-              "nombre": "Isla del Coco"
+              "nombre": "Isla del Coco",
+              "codigoPostal": "60110"
             },
             {
               "id": "p6-c1-d11",
-              "nombre": "Cóbano"
+              "nombre": "Cóbano",
+              "codigoPostal": "60111"
             },
             {
               "id": "p6-c1-d12",
-              "nombre": "Chacarita"
+              "nombre": "Chacarita",
+              "codigoPostal": "60112"
             },
             {
               "id": "p6-c1-d13",
-              "nombre": "Chira"
+              "nombre": "Chira",
+              "codigoPostal": "60113"
             },
             {
               "id": "p6-c1-d14",
-              "nombre": "Acapulco"
+              "nombre": "Acapulco",
+              "codigoPostal": "60114"
             },
             {
               "id": "p6-c1-d15",
-              "nombre": "El Roble"
+              "nombre": "El Roble",
+              "codigoPostal": "60115"
             },
             {
               "id": "p6-c1-d16",
-              "nombre": "Arancibia"
+              "nombre": "Arancibia",
+              "codigoPostal": "60116"
             }
           ]
         },
@@ -2056,23 +2461,28 @@
           "distritos": [
             {
               "id": "p6-c2-d1",
-              "nombre": "Espiritu Santo"
+              "nombre": "Espiritu Santo",
+              "codigoPostal": "60201"
             },
             {
               "id": "p6-c2-d2",
-              "nombre": "San Juan Grande"
+              "nombre": "San Juan Grande",
+              "codigoPostal": "60202"
             },
             {
               "id": "p6-c2-d3",
-              "nombre": "Macacona"
+              "nombre": "Macacona",
+              "codigoPostal": "60203"
             },
             {
               "id": "p6-c2-d4",
-              "nombre": "San Rafael"
+              "nombre": "San Rafael",
+              "codigoPostal": "60204"
             },
             {
               "id": "p6-c2-d5",
-              "nombre": "San Jeronimo"
+              "nombre": "San Jeronimo",
+              "codigoPostal": "60205"
             }
           ]
         },
@@ -2082,39 +2492,48 @@
           "distritos": [
             {
               "id": "p6-c3-d1",
-              "nombre": "Buenos Aires"
+              "nombre": "Buenos Aires",
+              "codigoPostal": "60301"
             },
             {
               "id": "p6-c3-d2",
-              "nombre": "Volcan"
+              "nombre": "Volcan",
+              "codigoPostal": "60302"
             },
             {
               "id": "p6-c3-d3",
-              "nombre": "Potrero Grande"
+              "nombre": "Potrero Grande",
+              "codigoPostal": "60303"
             },
             {
               "id": "p6-c3-d4",
-              "nombre": "Boruca"
+              "nombre": "Boruca",
+              "codigoPostal": "60304"
             },
             {
               "id": "p6-c3-d5",
-              "nombre": "Pilas"
+              "nombre": "Pilas",
+              "codigoPostal": "60305"
             },
             {
               "id": "p6-c3-d6",
-              "nombre": "Colinas"
+              "nombre": "Colinas",
+              "codigoPostal": "60306"
             },
             {
               "id": "p6-c3-d7",
-              "nombre": "Changena"
+              "nombre": "Changena",
+              "codigoPostal": "60307"
             },
             {
               "id": "p6-c3-d8",
-              "nombre": "Briolley"
+              "nombre": "Briolley",
+              "codigoPostal": "60308"
             },
             {
               "id": "p6-c3-d9",
-              "nombre": "Brunka"
+              "nombre": "Brunka",
+              "codigoPostal": "60309"
             }
           ]
         },
@@ -2124,15 +2543,18 @@
           "distritos": [
             {
               "id": "p6-c4-d1",
-              "nombre": "Miramar"
+              "nombre": "Miramar",
+              "codigoPostal": "60401"
             },
             {
               "id": "p6-c4-d2",
-              "nombre": "La Unión"
+              "nombre": "La Unión",
+              "codigoPostal": "60402"
             },
             {
               "id": "p6-c4-d3",
-              "nombre": "San Isidro"
+              "nombre": "San Isidro",
+              "codigoPostal": "60403"
             }
           ]
         },
@@ -2142,23 +2564,28 @@
           "distritos": [
             {
               "id": "p6-c5-d1",
-              "nombre": "Puerto Cortés"
+              "nombre": "Puerto Cortés",
+              "codigoPostal": "60501"
             },
             {
               "id": "p6-c5-d2",
-              "nombre": "Palmar"
+              "nombre": "Palmar",
+              "codigoPostal": "60502"
             },
             {
               "id": "p6-c5-d3",
-              "nombre": "Bahia Ballena"
+              "nombre": "Bahia Ballena",
+              "codigoPostal": "60503"
             },
             {
               "id": "p6-c5-d4",
-              "nombre": "Sierpe"
+              "nombre": "Sierpe",
+              "codigoPostal": "60504"
             },
             {
               "id": "p6-c5-d5",
-              "nombre": "Piedras Blancas"
+              "nombre": "Piedras Blancas",
+              "codigoPostal": "60505"
             }
           ]
         },
@@ -2168,15 +2595,18 @@
           "distritos": [
             {
               "id": "p6-c6-d1",
-              "nombre": "Quepos"
+              "nombre": "Quepos",
+              "codigoPostal": "60601"
             },
             {
               "id": "p6-c6-d2",
-              "nombre": "Savegre"
+              "nombre": "Savegre",
+              "codigoPostal": "60602"
             },
             {
               "id": "p6-c6-d3",
-              "nombre": "Naranjito"
+              "nombre": "Naranjito",
+              "codigoPostal": "60603"
             }
           ]
         },
@@ -2186,19 +2616,23 @@
           "distritos": [
             {
               "id": "p6-c7-d1",
-              "nombre": "Golfito"
+              "nombre": "Golfito",
+              "codigoPostal": "60701"
             },
             {
               "id": "p6-c7-d2",
-              "nombre": "Puerto Jiménez"
+              "nombre": "Puerto Jiménez",
+              "codigoPostal": "60702"
             },
             {
               "id": "p6-c7-d3",
-              "nombre": "Guaycará"
+              "nombre": "Guaycará",
+              "codigoPostal": "60703"
             },
             {
               "id": "p6-c7-d4",
-              "nombre": "Pavón"
+              "nombre": "Pavón",
+              "codigoPostal": "60704"
             }
           ]
         },
@@ -2208,23 +2642,28 @@
           "distritos": [
             {
               "id": "p6-c8-d1",
-              "nombre": "San Vito"
+              "nombre": "San Vito",
+              "codigoPostal": "60801"
             },
             {
               "id": "p6-c8-d2",
-              "nombre": "Sabalito"
+              "nombre": "Sabalito",
+              "codigoPostal": "60802"
             },
             {
               "id": "p6-c8-d3",
-              "nombre": "Aguabuena"
+              "nombre": "Aguabuena",
+              "codigoPostal": "60803"
             },
             {
               "id": "p6-c8-d4",
-              "nombre": "Limóncito"
+              "nombre": "Limóncito",
+              "codigoPostal": "60804"
             },
             {
               "id": "p6-c8-d5",
-              "nombre": "Pittier"
+              "nombre": "Pittier",
+              "codigoPostal": "60805"
             }
           ]
         },
@@ -2234,7 +2673,8 @@
           "distritos": [
             {
               "id": "p6-c9-d1",
-              "nombre": "Parrita"
+              "nombre": "Parrita",
+              "codigoPostal": "60901"
             }
           ]
         },
@@ -2244,19 +2684,23 @@
           "distritos": [
             {
               "id": "p6-c10-d1",
-              "nombre": "Corredor"
+              "nombre": "Corredor",
+              "codigoPostal": "61001"
             },
             {
               "id": "p6-c10-d2",
-              "nombre": "La Cuesta"
+              "nombre": "La Cuesta",
+              "codigoPostal": "61002"
             },
             {
               "id": "p6-c10-d3",
-              "nombre": "Canoas"
+              "nombre": "Canoas",
+              "codigoPostal": "61003"
             },
             {
               "id": "p6-c10-d4",
-              "nombre": "Laurel"
+              "nombre": "Laurel",
+              "codigoPostal": "61004"
             }
           ]
         },
@@ -2266,11 +2710,13 @@
           "distritos": [
             {
               "id": "p6-c11-d1",
-              "nombre": "Jacó"
+              "nombre": "Jacó",
+              "codigoPostal": "61101"
             },
             {
               "id": "p6-c11-d2",
-              "nombre": "Tárcoles"
+              "nombre": "Tárcoles",
+              "codigoPostal": "61102"
             }
           ]
         }
@@ -2286,19 +2732,23 @@
           "distritos": [
             {
               "id": "p7-c1-d1",
-              "nombre": "Limón"
+              "nombre": "Limón",
+              "codigoPostal": "70101"
             },
             {
               "id": "p7-c1-d2",
-              "nombre": "Valle La Estrella"
+              "nombre": "Valle La Estrella",
+              "codigoPostal": "70102"
             },
             {
               "id": "p7-c1-d3",
-              "nombre": "Río Blanco"
+              "nombre": "Río Blanco",
+              "codigoPostal": "70103"
             },
             {
               "id": "p7-c1-d4",
-              "nombre": "Matama"
+              "nombre": "Matama",
+              "codigoPostal": "70104"
             }
           ]
         },
@@ -2308,27 +2758,33 @@
           "distritos": [
             {
               "id": "p7-c2-d1",
-              "nombre": "Guápiles"
+              "nombre": "Guápiles",
+              "codigoPostal": "70201"
             },
             {
               "id": "p7-c2-d2",
-              "nombre": "Jiménez"
+              "nombre": "Jiménez",
+              "codigoPostal": "70202"
             },
             {
               "id": "p7-c2-d3",
-              "nombre": "Rita"
+              "nombre": "Rita",
+              "codigoPostal": "70203"
             },
             {
               "id": "p7-c2-d4",
-              "nombre": "Roxana"
+              "nombre": "Roxana",
+              "codigoPostal": "70204"
             },
             {
               "id": "p7-c2-d5",
-              "nombre": "Cariari"
+              "nombre": "Cariari",
+              "codigoPostal": "70205"
             },
             {
               "id": "p7-c2-d6",
-              "nombre": "Colorado"
+              "nombre": "Colorado",
+              "codigoPostal": "70206"
             }
           ]
         },
@@ -2338,27 +2794,33 @@
           "distritos": [
             {
               "id": "p7-c3-d1",
-              "nombre": "Siquirres"
+              "nombre": "Siquirres",
+              "codigoPostal": "70301"
             },
             {
               "id": "p7-c3-d2",
-              "nombre": "Pacuarito"
+              "nombre": "Pacuarito",
+              "codigoPostal": "70302"
             },
             {
               "id": "p7-c3-d3",
-              "nombre": "Florida"
+              "nombre": "Florida",
+              "codigoPostal": "70303"
             },
             {
               "id": "p7-c3-d4",
-              "nombre": "Germania"
+              "nombre": "Germania",
+              "codigoPostal": "70304"
             },
             {
               "id": "p7-c3-d5",
-              "nombre": "Cairo"
+              "nombre": "Cairo",
+              "codigoPostal": "70305"
             },
             {
               "id": "p7-c3-d6",
-              "nombre": "Alegría"
+              "nombre": "Alegría",
+              "codigoPostal": "70306"
             }
           ]
         },
@@ -2368,19 +2830,23 @@
           "distritos": [
             {
               "id": "p7-c4-d1",
-              "nombre": "Bratsi"
+              "nombre": "Bratsi",
+              "codigoPostal": "70401"
             },
             {
               "id": "p7-c4-d2",
-              "nombre": "Sixaola"
+              "nombre": "Sixaola",
+              "codigoPostal": "70402"
             },
             {
               "id": "p7-c4-d3",
-              "nombre": "Cahuita"
+              "nombre": "Cahuita",
+              "codigoPostal": "70403"
             },
             {
               "id": "p7-c4-d4",
-              "nombre": "Telire"
+              "nombre": "Telire",
+              "codigoPostal": "70404"
             }
           ]
         },
@@ -2390,15 +2856,18 @@
           "distritos": [
             {
               "id": "p7-c5-d1",
-              "nombre": "Matina"
+              "nombre": "Matina",
+              "codigoPostal": "70501"
             },
             {
               "id": "p7-c5-d2",
-              "nombre": "Batán"
+              "nombre": "Batán",
+              "codigoPostal": "70502"
             },
             {
               "id": "p7-c5-d3",
-              "nombre": "Carrandi"
+              "nombre": "Carrandi",
+              "codigoPostal": "70503"
             }
           ]
         },
@@ -2408,23 +2877,28 @@
           "distritos": [
             {
               "id": "p7-c6-d1",
-              "nombre": "Guácimo"
+              "nombre": "Guácimo",
+              "codigoPostal": "70601"
             },
             {
               "id": "p7-c6-d2",
-              "nombre": "Mercedes"
+              "nombre": "Mercedes",
+              "codigoPostal": "70602"
             },
             {
               "id": "p7-c6-d3",
-              "nombre": "Pocora"
+              "nombre": "Pocora",
+              "codigoPostal": "70603"
             },
             {
               "id": "p7-c6-d4",
-              "nombre": "Río Jiménez"
+              "nombre": "Río Jiménez",
+              "codigoPostal": "70604"
             },
             {
               "id": "p7-c6-d5",
-              "nombre": "Duacarí"
+              "nombre": "Duacarí",
+              "codigoPostal": "70605"
             }
           ]
         }
