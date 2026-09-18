@@ -4,8 +4,7 @@ A GraphQL API serving Costa Rica's administrative divisions: **provincia → can
 
 Built as a learning project — schema-first GraphQL with Apollo Server and
 TypeScript, resolvers type-checked against the schema via
-[GraphQL Code Generator](https://the-guild.dev/graphql/codegen), deployed on
-[Render](https://render.com).
+[GraphQL Code Generator](https://the-guild.dev/graphql/codegen).
 
 ## Data
 
@@ -78,3 +77,56 @@ mappers.
 5. Start command: `npm start`
 6. Deploy — Render assigns `PORT` automatically, the server reads it via
    `process.env.PORT`.
+
+## Deploy (EC2)
+
+Runs as a `systemd` service (`cr-locations.service`) behind nginx on the
+instance, `git pull`-based deploys.
+
+First-time setup on a fresh Ubuntu instance:
+
+1. Install Node via [nvm](https://github.com/nvm-sh/nvm), install `git`
+   (usually preinstalled).
+2. `git clone` this repo, `cd server && npm ci && npm run codegen && npm run build`.
+3. Create `/etc/systemd/system/cr-locations.service`:
+   ```ini
+   [Unit]
+   Description=Costa Rica Locations GraphQL server
+   After=network.target
+
+   [Service]
+   Type=simple
+   User=ubuntu
+   WorkingDirectory=/home/ubuntu/graphql-costa-rica-locations/server
+   ExecStart=/home/ubuntu/.nvm/versions/node/v20.20.2/bin/node dist/index.js
+   Restart=on-failure
+   RestartSec=3
+   Environment=PORT=4000
+
+   [Install]
+   WantedBy=multi-user.target
+   ```
+   (adjust the `node` path to match your installed version)
+4. `sudo systemctl daemon-reload && sudo systemctl enable --now cr-locations`
+5. Point nginx at it — `/etc/nginx/sites-available/cr-locations`:
+   ```nginx
+   server {
+       listen 80;
+       server_name _;
+
+       location / {
+           proxy_pass http://127.0.0.1:4000;
+           proxy_http_version 1.1;
+           proxy_set_header Host $host;
+           proxy_set_header X-Real-IP $remote_addr;
+           proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+           proxy_set_header X-Forwarded-Proto $scheme;
+       }
+   }
+   ```
+   `sudo ln -sf /etc/nginx/sites-available/cr-locations /etc/nginx/sites-enabled/`,
+   remove the default site, `sudo nginx -t && sudo systemctl reload nginx`.
+6. Security group: open 22 (your IP only) and 80 (anywhere).
+
+Redeploying after a push: `./deploy.sh` (pulls, rebuilds, restarts the
+service).
