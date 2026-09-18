@@ -1,5 +1,6 @@
 import { ApolloServer } from "@apollo/server";
 import { startStandaloneServer } from "@apollo/server/standalone";
+import depthLimit from "graphql-depth-limit";
 import { typeDefs } from "./schema.js";
 import { resolvers } from "./resolvers.js";
 import type { Context } from "./context.js";
@@ -9,11 +10,19 @@ import type { Context } from "./context.js";
 // no cross-origin data to protect. Locking origins down would require swapping to
 // expressMiddleware with a custom `cors()` config.
 //
-// csrfPrevention is off for the same reason: it guards cookie-authenticated APIs
-// against cross-site form-post attacks, but this API has no cookies/auth to protect,
-// and the default was blocking the Sandbox's own introspection requests when loaded
-// from a plain IP address (no matching Origin header for Apollo to trust).
-const server = new ApolloServer<Context>({ typeDefs, resolvers, csrfPrevention: false });
+// csrfPrevention stays on (the default) — with CORS wide open, disabling it would
+// let any third-party page fire arbitrary GraphQL operations from a visitor's
+// browser with no preflight, which combined with the Provincia/Canton/Distrito
+// schema cycle below would be a cheap DoS amplification vector.
+//
+// The depth limit caps that same cycle (Provincia -> cantones -> distritos ->
+// canton -> distritos -> ...), which a client could otherwise nest arbitrarily
+// deep in a single query.
+const server = new ApolloServer<Context>({
+  typeDefs,
+  resolvers,
+  validationRules: [depthLimit(10)],
+});
 
 const port = process.env.PORT ? Number(process.env.PORT) : 4000;
 
