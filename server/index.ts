@@ -8,7 +8,12 @@ import type { Context } from "./context.js";
 // this API is public, read-only reference data with no auth/mutations, so there's
 // no cross-origin data to protect. Locking origins down would require swapping to
 // expressMiddleware with a custom `cors()` config.
-const server = new ApolloServer<Context>({ typeDefs, resolvers });
+//
+// csrfPrevention is off for the same reason: it guards cookie-authenticated APIs
+// against cross-site form-post attacks, but this API has no cookies/auth to protect,
+// and the default was blocking the Sandbox's own introspection requests when loaded
+// from a plain IP address (no matching Origin header for Apollo to trust).
+const server = new ApolloServer<Context>({ typeDefs, resolvers, csrfPrevention: false });
 
 const port = process.env.PORT ? Number(process.env.PORT) : 4000;
 
