@@ -6,6 +6,13 @@ Built as a learning project — schema-first GraphQL with Apollo Server and
 TypeScript, resolvers type-checked against the schema via
 [GraphQL Code Generator](https://the-guild.dev/graphql/codegen).
 
+## Try it
+
+Live Apollo Sandbox: <https://cr-locations.duckdns.org/>
+
+Shared global rate limit (1 req/min, burst 2000) — if you hit `429`,
+wait a minute and try again.
+
 ## Data
 
 `data/locations.json` — 7 provincias, 82 cantones, 474 distritos, each with a
