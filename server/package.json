@@ -12,7 +12,7 @@
     "build": "tsc && cp schema.graphql dist/schema.graphql && mkdir -p dist/data && cp ../data/locations.json dist/data/locations.json",
     "start": "node dist/index.js",
     "dev": "tsx watch index.ts",
-    "test": "tsx --test test/**/*.test.ts"
+    "test": "tsx --test test/*.test.ts"
   },
   "dependencies": {
     "@apollo/server": "^4.11.0",
