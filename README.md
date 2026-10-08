@@ -118,7 +118,7 @@ First-time setup on a fresh Ubuntu instance:
        server_name _;
 
        location / {
-           limit_req zone=cr_locations_daily burst=10 nodelay;
+           limit_req zone=cr_locations_daily burst=50 nodelay;
 
            proxy_pass http://127.0.0.1:4000;
            proxy_http_version 1.1;
@@ -130,7 +130,7 @@ First-time setup on a fresh Ubuntu instance:
    }
    ```
    The `limit_req_zone` / `limit_req` pair caps the request rate globally
-   (shared across all clients) at 1 req/min with a burst of 10 — ~1440
+   (shared across all clients) at 1 req/min with a burst of 50 — ~1490
    req/day peak, well inside AWS's 100 GB/month free egress for this
    schema's response sizes. Over-limit requests get `429`. nginx rate
    units are only `r/s` and `r/m`, so a true 50/day quota isn't
