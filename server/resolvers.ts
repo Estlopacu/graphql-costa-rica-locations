@@ -1,6 +1,8 @@
 import { provincias, cantones, distritos } from "./data.js";
 import type { Resolvers } from "./generated/graphql.js";
 
+const foldDiacritics = (s: string): string => s.normalize("NFD").replace(/\p{Diacritic}/gu, "");
+
 export const resolvers: Resolvers = {
   Query: {
     provincias: () => provincias,
@@ -11,9 +13,9 @@ export const resolvers: Resolvers = {
     distritos: (_parent, { cantonId }) =>
       cantonId ? distritos.filter((d) => d.cantonId === cantonId) : distritos,
     buscarDistrito: (_parent, { nombre }) => {
-      const needle = nombre.trim().toLowerCase();
+      const needle = foldDiacritics(nombre.trim().toLowerCase());
       if (!needle) return [];
-      return distritos.filter((d) => d.nombre.toLowerCase().includes(needle));
+      return distritos.filter((d) => foldDiacritics(d.nombre.toLowerCase()).includes(needle));
     },
   },
 
