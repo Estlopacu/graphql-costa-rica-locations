@@ -136,7 +136,27 @@ First-time setup on a fresh Ubuntu instance:
    units are only `r/s` and `r/m`, so a true 50/day quota isn't
    expressible with core nginx; this is the closest pragmatic cap. `sudo ln -sf /etc/nginx/sites-available/cr-locations /etc/nginx/sites-enabled/`,
    remove the default site, `sudo nginx -t && sudo systemctl reload nginx`.
-6. Security group: open 22 (your IP only) and 80 (anywhere).
+6. Security group: open 22 (your IP only), 80 (anywhere), and 443
+   (anywhere, if enabling HTTPS below).
+
+### HTTPS (free, Let's Encrypt + DuckDNS)
+
+Let's Encrypt doesn't issue certs for raw IPs, so point a free subdomain
+at the instance first:
+
+1. Create a subdomain at <https://www.duckdns.org> (e.g.
+   `cr-locations.duckdns.org`) and set its IP to the EC2 public IP.
+2. In the nginx config, set `server_name cr-locations.duckdns.org;`
+   inside the `server {` block (replacing `server_name _;`).
+3. Install certbot and request a cert:
+   ```
+   sudo apt install -y certbot python3-certbot-nginx
+   sudo certbot --nginx -d cr-locations.duckdns.org
+   ```
+   Pick "Redirect" when prompted so `http` auto-forwards to `https`.
+4. Certbot rewrites the nginx config to add port 443 + cert paths and
+   sets up a `systemd` timer that renews automatically every 90 days
+   (`systemctl list-timers | grep certbot` to verify).
 
 Redeploying after a push: `./deploy.sh` (pulls, rebuilds, restarts the
 service).
