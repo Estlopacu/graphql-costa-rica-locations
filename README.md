@@ -110,11 +110,16 @@ First-time setup on a fresh Ubuntu instance:
 4. `sudo systemctl daemon-reload && sudo systemctl enable --now cr-locations`
 5. Point nginx at it — `/etc/nginx/sites-available/cr-locations`:
    ```nginx
+   limit_req_zone $server_name zone=cr_locations_daily:1m rate=1r/m;
+   limit_req_status 429;
+
    server {
        listen 80;
        server_name _;
 
        location / {
+           limit_req zone=cr_locations_daily burst=10 nodelay;
+
            proxy_pass http://127.0.0.1:4000;
            proxy_http_version 1.1;
            proxy_set_header Host $host;
@@ -124,7 +129,12 @@ First-time setup on a fresh Ubuntu instance:
        }
    }
    ```
-   `sudo ln -sf /etc/nginx/sites-available/cr-locations /etc/nginx/sites-enabled/`,
+   The `limit_req_zone` / `limit_req` pair caps the request rate globally
+   (shared across all clients) at 1 req/min with a burst of 10 — ~1440
+   req/day peak, well inside AWS's 100 GB/month free egress for this
+   schema's response sizes. Over-limit requests get `429`. nginx rate
+   units are only `r/s` and `r/m`, so a true 50/day quota isn't
+   expressible with core nginx; this is the closest pragmatic cap. `sudo ln -sf /etc/nginx/sites-available/cr-locations /etc/nginx/sites-enabled/`,
    remove the default site, `sudo nginx -t && sudo systemctl reload nginx`.
 6. Security group: open 22 (your IP only) and 80 (anywhere).
 
