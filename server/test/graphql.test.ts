@@ -142,6 +142,28 @@ test("buscarDistrito matches case-insensitively", async () => {
   assert.ok(data!.buscarDistrito.some((d) => d.id === target.id));
 });
 
+// Regression: buscarDistrito — diacritic-insensitive search
+// Found by /qa on 2026-10-08: `buscarDistrito("escazu")` returned [] even though
+// "Escazú" is a real distrito. Spanish users typing without accents got no hits.
+// Fix folds diacritics on both needle and haystack.
+test("buscarDistrito matches diacritic-insensitively (escazu → Escazú)", async () => {
+  const { data, errors } = await exec<{ buscarDistrito: { nombre: string }[] }>(
+    `query($n: String!) { buscarDistrito(nombre: $n) { nombre } }`,
+    { n: "escazu" }
+  );
+  assert.equal(errors, undefined);
+  assert.ok(data!.buscarDistrito.some((d) => d.nombre === "Escazú"));
+});
+
+test("buscarDistrito accent on needle still matches (escazú → Escazú)", async () => {
+  const { data, errors } = await exec<{ buscarDistrito: { nombre: string }[] }>(
+    `query($n: String!) { buscarDistrito(nombre: $n) { nombre } }`,
+    { n: "escazú" }
+  );
+  assert.equal(errors, undefined);
+  assert.ok(data!.buscarDistrito.some((d) => d.nombre === "Escazú"));
+});
+
 test("buscarDistrito empty / whitespace returns []", async () => {
   for (const n of ["", "   "]) {
     const { data, errors } = await exec<{ buscarDistrito: unknown[] }>(
