@@ -1,34 +1,48 @@
 import { provincias, cantones, distritos } from "./data.js";
+import {
+  provinciaById,
+  cantonById,
+  cantonesByProvincia,
+  distritosByCanton,
+} from "./indexes.js";
+import { LRUCache } from "./lru.js";
+import type { DistritoModel } from "./models.js";
 import type { Resolvers } from "./generated/graphql.js";
 
 const foldDiacritics = (s: string): string => s.normalize("NFD").replace(/\p{Diacritic}/gu, "");
 
+const searchCache = new LRUCache<string, DistritoModel[]>({ maxSize: 200, ttlMs: 60_000 });
+
 export const resolvers: Resolvers = {
   Query: {
     provincias: () => provincias,
-    provincia: (_parent, { id }) => provincias.find((p) => p.id === id) ?? null,
+    provincia: (_parent, { id }) => provinciaById.get(id) ?? null,
     cantones: (_parent, { provinciaId }) =>
-      provinciaId ? cantones.filter((c) => c.provinciaId === provinciaId) : cantones,
-    canton: (_parent, { id }) => cantones.find((c) => c.id === id) ?? null,
+      provinciaId ? (cantonesByProvincia.get(provinciaId) ?? []) : cantones,
+    canton: (_parent, { id }) => cantonById.get(id) ?? null,
     distritos: (_parent, { cantonId }) =>
-      cantonId ? distritos.filter((d) => d.cantonId === cantonId) : distritos,
+      cantonId ? (distritosByCanton.get(cantonId) ?? []) : distritos,
     buscarDistrito: (_parent, { nombre }) => {
       const needle = foldDiacritics(nombre.trim().toLowerCase());
       if (!needle) return [];
-      return distritos.filter((d) => foldDiacritics(d.nombre.toLowerCase()).includes(needle));
+      const hit = searchCache.get(needle);
+      if (hit) return hit;
+      const result = distritos.filter((d) => foldDiacritics(d.nombre.toLowerCase()).includes(needle));
+      searchCache.set(needle, result);
+      return result;
     },
   },
 
   Canton: {
-    provincia: (canton) => provincias.find((p) => p.id === canton.provinciaId)!,
-    distritos: (canton) => distritos.filter((d) => d.cantonId === canton.id),
+    provincia: (canton) => provinciaById.get(canton.provinciaId)!,
+    distritos: (canton) => distritosByCanton.get(canton.id) ?? [],
   },
 
   Provincia: {
-    cantones: (provincia) => cantones.filter((c) => c.provinciaId === provincia.id),
+    cantones: (provincia) => cantonesByProvincia.get(provincia.id) ?? [],
   },
 
   Distrito: {
-    canton: (distrito) => cantones.find((c) => c.id === distrito.cantonId)!,
+    canton: (distrito) => cantonById.get(distrito.cantonId)!,
   },
 };
